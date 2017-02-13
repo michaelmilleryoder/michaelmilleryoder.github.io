@@ -16,7 +16,7 @@
 title: Michael Miller Yoder
 email: yoder@cs.cmu.edu
 description: > # this means to ignore newlines until "baseurl:"
-   I'm a PhD student in the Language Technologies Institute at Carnegie Mellon University's School of Computer Science.
+   I'm a master's student in the Language Technologies Institute at Carnegie Mellon University's School of Computer Science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
