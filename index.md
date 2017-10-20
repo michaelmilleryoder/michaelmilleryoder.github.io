@@ -5,4 +5,4 @@
 #layout: home
 layout: default
 ---
-   I'm a master's student in the Language Technologies Institute at Carnegie Mellon University's School of Computer Science.
+Hello! I'm a PhD student in the Language Technologies Institute at Carnegie Mellon University's School of Computer Science.
