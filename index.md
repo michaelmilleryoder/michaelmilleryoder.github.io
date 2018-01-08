@@ -19,7 +19,7 @@ Michael Miller Yoder, Barbara Johnstone
 * [Roles and Success in Wikipedia Talk Pages: Identifying Latent Patterns of Behavior](http://www.aclweb.org/anthology/I17-1103)  
 Keith Maki, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé  
 *Proceedings of the International Joint Conference on Natural Language Processing (IJCNLP)*. 2017.
-[pdf](http://www.aclweb.org/anthology/I17-1103)) &middot; [data](https://github.com/michaelmilleryoder/wikipedia-talk-scores)
+[pdf](http://www.aclweb.org/anthology/I17-1103) &middot; [data](https://github.com/michaelmilleryoder/wikipedia-talk-scores)
 
 * [Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences](http://www.aclweb.org/anthology/D17-1232)  
 Yohan Jo, Michael Miller Yoder, Hyeju Jang, Carolyn P. Rosé  
