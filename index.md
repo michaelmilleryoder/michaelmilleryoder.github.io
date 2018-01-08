@@ -21,10 +21,10 @@ Keith Maki, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé
 *Proceedings of the International Joint Conference on Natural Language Processing (IJCNLP)*. 2017.
 [data](https://github.com/michaelmilleryoder/wikipedia-talk-scores)
 
-* [Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences](http://www.aclweb.org/anthology/D17-1231)  
+* [Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences](http://www.aclweb.org/anthology/D17-1232)  
 Yohan Jo, Michael Miller Yoder, Hyeju Jang, Carolyn P. Rosé  
 *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2017.  
-[pdf](http://www.aclweb.org/anthology/D17-1231)
+[pdf](http://www.aclweb.org/anthology/D17-1232)
 
 * [Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages](http://aclweb.org/anthology/W17-2911)  
 Michael Miller Yoder, Shruti Rijhwani, Carolyn Penstein Rosé, Lori Levin  
