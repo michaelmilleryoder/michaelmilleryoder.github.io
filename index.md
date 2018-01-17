@@ -9,6 +9,8 @@ title: Michael Miller Yoder
 
 ## Publications
 
+### 2018
+
 * [Unpacking a Political Icon: "Bike Lanes" and Orders of Indexicality](http://journals.sagepub.com/doi/full/10.1177/1750481317745753)  
 Michael Miller Yoder, Barbara Johnstone  
 *Discourse & Communication.* 2018.  
