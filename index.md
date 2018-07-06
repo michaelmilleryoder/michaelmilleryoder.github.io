@@ -11,6 +11,11 @@ title: Michael Miller Yoder
 
 ### 2018
 
+* [Perceptions of Censorship and Moderation Bias in Political Debate Forums](https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17809/17026)  
+Qinlan Shen, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé  
+*Proceedings of the International AAAI Conference on Web and Social Media (ICWSM)*. 2018.  
+[pdf](https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17809/17026)
+
 * [Unpacking a Political Icon: "Bike Lanes" and Orders of Indexicality](http://journals.sagepub.com/doi/full/10.1177/1750481317745753)  
 Michael Miller Yoder, Barbara Johnstone  
 *Discourse & Communication.* 2018.  
