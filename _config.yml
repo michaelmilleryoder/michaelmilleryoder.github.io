@@ -26,6 +26,12 @@ twitter_username:
 github_username:  michaelmilleryoder
 google_scholar: https://scholar.google.com/citations?user=3XxF8EoAAAAJ&hl=en&oi=ao 
 
+# Navigation links order
+header_pages:
+ - publications.md
+ - research.md
+ - cv.md
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -34,3 +40,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
