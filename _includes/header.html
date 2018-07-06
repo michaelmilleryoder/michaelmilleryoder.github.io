@@ -4,7 +4,8 @@
 
 	{% assign default_paths = site.pages | sort: 'weight' | map: "path" %}
 	{% assign page_paths = site.header_pages | default: default_paths %}	
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <!--<a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
+    <a class="site-title" href="{{ site.url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -18,7 +19,8 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <!--<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
+          <a class="page-link" href="{{ my_page.url | remove_first:'/' }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
       </div>

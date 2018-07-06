@@ -1,7 +1,7 @@
 ---
 layout: personal
 title: Publications
-weight: 1
+url: publications2.html
 
 ---
 
