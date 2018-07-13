@@ -9,6 +9,6 @@ title: Research
 
 ## About my research
 
-Language in use conveys much more than information. The words we use display something about who is talking, what the situation may be, and even how certain speakers, communities or concepts are being positioned. Influence, politeness, censorship and identity are examples of these "other," more social, constructs that are partially visible through language.
+Language conveys much more than information. The words we use show something about who we are, what the situation is, who is being spoken to, and even what the relationship might be between discourse participants. Influence, politeness, censorship, privilege and identity are examples of social constructs that I'm interested in looking at through language.
 
-I use computational methods to analyze, measure and predict these social factors in language. The goal of my research is to more fully understand how social constructs are both reflected and come into being through language. My research draws on computational linguistics, sociolinguistics and discourse analysis.
+I use machine learning and other computational methods to analyze, measure and predict these social factors in language. The goal of my research is to more fully understand how social constructs are both reflected and come into being through language. My research draws on computational linguistics, sociolinguistics and discourse analysis.
