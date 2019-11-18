@@ -10,12 +10,12 @@ url: publications2.html
 ### 2019
 
 * ["Everyone is Gay and Nothing Hurts": The Presentation of Queer Relationships in Fanfiction](files/yoder_ach2019_slides.pdf)
-Michael Miller Yoder, Luke Breitfeller, Carolyn P. Rosé
+Michael Miller Yoder, Luke Breitfeller, Carolyn P. Rosé  
 Association for Computers and the Humanities (ACH), Pittsburgh, PA, 2019.  
 [slides](files/yoder_ach2019_slides.pdf)
 
 * [Ron the Death Eater: Plotting Characterization from Canon to Fanfiction](files/yoder_standd2019_slides.pdf)
-Michael Miller Yoder, Qinlan Shen, James Fiacco, Carolyn P. Rosé
+Michael Miller Yoder, Qinlan Shen, James Fiacco, Carolyn P. Rosé  
 Society for Text & Discourse (ST&D), New York, NY, 2019.  
 [slides](files/yoder_standd2019_slides.pdf)
 
