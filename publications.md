@@ -54,5 +54,5 @@ Michael Miller Yoder, Shruti Rijhwani, Carolyn Penstein Rosé, Lori Levin
 
 * [Metaphor Detection with Topic Transition, Emotion and Cognition in Context](http://www.aclweb.org/anthology/P16-1021)  
 Hyeju Jang, Yohan Jo, Qinlan Shen, Michael Miller, Shane Moon, Carolyn P. Rosé  
-*Proceedings of the Association for Computational Linguistics*. 2016.  
+*Proceedings of the Association for Computational Linguistics (ACL)*. 2016.  
 [pdf](http://www.aclweb.org/anthology/P16-1021)
