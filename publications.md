@@ -42,7 +42,7 @@ Keith Maki, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé
 
 * [Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences](http://www.aclweb.org/anthology/D17-1232)  
 Yohan Jo, Michael Miller Yoder, Hyeju Jang, Carolyn P. Rosé  
-*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2017.  
+*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2017.  
 [pdf](http://www.aclweb.org/anthology/D17-1232) &middot; [code](https://github.com/yohanjo/Dialogue-Acts)
 
 * [Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages](http://aclweb.org/anthology/W17-2911)  
@@ -54,5 +54,5 @@ Michael Miller Yoder, Shruti Rijhwani, Carolyn Penstein Rosé, Lori Levin
 
 * [Metaphor Detection with Topic Transition, Emotion and Cognition in Context](http://www.aclweb.org/anthology/P16-1021)  
 Hyeju Jang, Yohan Jo, Qinlan Shen, Michael Miller, Shane Moon, Carolyn P. Rosé  
-*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*. 2016.  
+*Proceedings of the Association for Computational Linguistics*. 2016.  
 [pdf](http://www.aclweb.org/anthology/P16-1021)
