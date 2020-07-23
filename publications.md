@@ -12,7 +12,7 @@ url: publications2.html
 * [Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)  
 Michael Miller Yoder, Qinlan Shen, Yansen Wang, Alex Coda, Yunseok Jang, Yale Song, Kapil Thadani, Carolyn P. Rosé  
 *ACM Conference on Web Science (WebSci)*. 2020.  
-[pdf](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)
+[pdf](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893) &middot; [slides](files/yoder_et_al_websci_2020_slides.pdf)
 
 ### 2019
 
