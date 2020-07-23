@@ -7,6 +7,13 @@ url: publications2.html
 
 ## Publications and Presentations
 
+### 2020
+
+* [Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)  
+Michael Miller Yoder, Qinlan Shen, Yansen Wang, Alex Coda, Yunseok Jang, Yale Song, Kapil Thadani, Carolyn P. Rosé  
+*ACM Conference on Web Science (WebSci)*. 2020.  
+[pdf](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)
+
 ### 2019
 
 * ["Everyone is Gay and Nothing Hurts": The Presentation of Queer Relationships in Fanfiction](files/yoder_ach2019_slides.pdf)  
