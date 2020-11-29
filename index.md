@@ -7,7 +7,6 @@ layout: home
 title: 
 ---
 
-## About
 I’m a PhD candidate in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at <br> Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. In the summer of 2019, I was an intern with Yahoo Research/Tumblr, advised by <a href="http://www.cs.columbia.edu/~kapil/">Kapil Thadani</a>.
 
 I study social factors in language using natural language processing, machine learning, and other computational approaches. My dissertation work investigates how people use language to position their own identities and those of others in social media and online narrative.
