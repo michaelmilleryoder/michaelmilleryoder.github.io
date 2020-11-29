@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Publications"
+    url: /index.html#publications
+  - title: "CV"
+    url: /files/cv.pdf
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
