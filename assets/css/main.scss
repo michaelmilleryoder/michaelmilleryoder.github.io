@@ -7,6 +7,14 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+h2#bio {
+  margin-top: 1em
+}
+
+.bio {
+  padding-right: 100px;
+}
+
 .author__avatar img { 
   border-radius: 0%; 
   max-width: 200px; 

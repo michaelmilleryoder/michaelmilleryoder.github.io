@@ -6,14 +6,19 @@ layout: home
 #layout: single
 title: 
 ---
-
+<!--
 I’m a PhD student in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. In the summer of 2019, I was an intern with Yahoo Research/Tumblr, advised by <a href="http://www.cs.columbia.edu/~kapil/">Kapil Thadani</a>.
-
-I study social factors in language using natural language processing, machine learning, and other computational approaches. My dissertation work investigates how people use language to position their own identities and those of others in social media and online narrative.
+-->
+{::options parse_block_html="true" /}
+## Bio
+I’m a PhD student in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University.
+I use computational text analysis to study social factors such as identity, power, and influence. 
+My dissertation investigates how people use language to represent their own identities and those of others in social media and online narrative.
+This work combines methods from natural language processing and machine learning with theories from sociolinguistics, discourse analysis, and the social sciences.
+{: .bio}
 
 ## Publications and Presentations
 {: #publications}
-{::options parse_block_html="true" /}
 
 <div class="publications">
 <!--[Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)  -->

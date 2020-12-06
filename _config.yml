@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Michael Miller Yoder"
   avatar           : "/images/stone_profile_pic_cropped.jpg"
-  bio              : "PhD Student<br>Language Technologies Institute<br>Carnegie Mellon University<br>he/him or they/them"
+  bio              : "PhD Student<br>Advisor: <a href='http://www.cs.cmu.edu/~cprose/' target='_blank' style='color:#4e91a5'>Carolyn P. Rosé</a><br>Language Technologies Institute<br>Carnegie Mellon University<br>he/him or they/them"
   location         : "Pittsburgh, PA, USA"
   email            :
   links:
