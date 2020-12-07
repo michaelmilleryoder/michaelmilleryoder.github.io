@@ -65,21 +65,21 @@ Keith Maki, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé
 <hr>
 
 <!--[Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences](http://www.aclweb.org/anthology/D17-1232)  -->
-**Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences**
+**Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences**  
 Yohan Jo, Michael Miller Yoder, Hyeju Jang, Carolyn P. Rosé  
 *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2017.  
 <span class="badge conference">conference paper</span> [pdf](http://www.aclweb.org/anthology/D17-1232) &middot; [code](https://github.com/yohanjo/Dialogue-Acts)
 <hr>
 
 <!--[Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages](http://aclweb.org/anthology/W17-2911)  -->
-**Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages**
+**Code-Switching as a Social Act: The Case of Arabic Wikipedia Talk Pages**  
 Michael Miller Yoder, Shruti Rijhwani, Carolyn Penstein Rosé, Lori Levin  
 *Proceedings of the Second Workshop on Natural Language Processing and Computational Social Science (at ACL)*. 2017.  
 <span class="badge workshop-paper">workshop paper</span> [pdf](http://aclweb.org/anthology/W17-2911) &middot; [data](https://github.com/michaelmilleryoder/wikipedia-codeswitching-data) &middot; [slides](files/yoder_rijhwani_rose_levin_2017.pdf)
 <hr>
 
 <!--[Metaphor Detection with Topic Transition, Emotion and Cognition in Context](http://www.aclweb.org/anthology/P16-1021)  -->
-**Metaphor Detection with Topic Transition, Emotion and Cognition in Context**
+**Metaphor Detection with Topic Transition, Emotion and Cognition in Context**  
 Hyeju Jang, Yohan Jo, Qinlan Shen, Michael Miller, Shane Moon, Carolyn P. Rosé  
 *Proceedings of the Association for Computational Linguistics (ACL)*. 2016.  
 <span class="badge conference">conference paper</span> [pdf](http://www.aclweb.org/anthology/P16-1021)
