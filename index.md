@@ -21,6 +21,12 @@ This work combines methods from natural language processing and machine learning
 {: #publications}
 
 <div class="publications">
+**Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum**  
+Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn P. Rosé  
+International Society of the Learning Sciences (ISLS). 2021.  
+<span class="badge conference-presentation">conference presentation</span>
+<hr>
+
 <!--[Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)  -->
 **Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr**  
 Michael Miller Yoder, Qinlan Shen, Yansen Wang, Alex Coda, Yunseok Jang, Yale Song, Kapil Thadani, Carolyn P. Rosé  
