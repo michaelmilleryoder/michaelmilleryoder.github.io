@@ -22,7 +22,7 @@ This work combines methods from natural language processing and machine learning
 
 <div class="publications">
 **Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum**  
-Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn P. Rosé  
+Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn Rosé  
 International Society of the Learning Sciences (ISLS). 2021.  
 <span class="badge conference-presentation">conference presentation</span>
 <hr>
