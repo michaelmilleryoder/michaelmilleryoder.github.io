@@ -22,7 +22,7 @@ This work combines methods from natural language processing and machine learning
 
 <div class="publications">
 
-**FanfictionNLP: A Text Processing Pipeline for Fanfiction**
+**FanfictionNLP: A Text Processing Pipeline for Fanfiction**  
 Michael Miller Yoder, Sopan Khosla, Qinlan Shen, Aakanksha Naik, Huiming Jin, Hariharan Muralidharan, Carolyn Rosé  
 *Proceedings of the Workshop on Narrative Understanding*. 2021.  
 <span class="badge workshop-paper">workshop paper</span> [pdf](https://www.aclweb.org/anthology/2021.nuse-1.2.pdf) &middot; [code](https://github.com/michaelmilleryoder/fanfiction-nlp) &middot; [poster](files/yoder_khosla_wnu2021_poster.pdf)
