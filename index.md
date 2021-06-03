@@ -21,6 +21,12 @@ This work combines methods from natural language processing and machine learning
 {: #publications}
 
 <div class="publications">
+
+**FanfictionNLP: A Text Processing Pipeline for Fanfiction**
+Michael Miller Yoder, Sopan Khosla, Qinlan Shen, Aakanksha Naik, Huiming Jin, Hariharan Muralidharan, Carolyn Rosé
+Proceedings of the Workshop on Narrative Understanding. 2021.
+<span class="badge workshop-paper">workshop paper</span> [pdf](https://www.aclweb.org/anthology/2021.nuse-1.2.pdf) &middot; [code](https://github.com/michaelmilleryoder/fanfiction-nlp) &middot; [poster](files/yoder_khosal_wnu2021_poster.pdf)
+
 **Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum**  
 Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn Rosé  
 International Society of the Learning Sciences (ISLS). 2021.  
