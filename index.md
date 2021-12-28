@@ -22,6 +22,11 @@ This work combines methods from natural language processing and machine learning
 
 <div class="publications">
 
+**Computational Models of Identity Presentation in Language**  
+Michael Miller Yoder 
+PhD dissertation, Language Technologies Institute, Carnegie Mellon University. 2021.
+<span class="badge thesis">thesis</span> [pdf](files/yoder_thesis.pdf)  
+
 **FanfictionNLP: A Text Processing Pipeline for Fanfiction**  
 Michael Miller Yoder, Sopan Khosla, Qinlan Shen, Aakanksha Naik, Huiming Jin, Hariharan Muralidharan, Carolyn Rosé  
 *Proceedings of the Workshop on Narrative Understanding*. 2021.  
