@@ -6,16 +6,15 @@ layout: home
 #layout: single
 title: 
 ---
-<!--
-I’m a PhD student in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. In the summer of 2019, I was an intern with Yahoo Research/Tumblr, advised by <a href="http://www.cs.columbia.edu/~kapil/">Kapil Thadani</a>.
--->
 {::options parse_block_html="true" /}
 ## Bio
-I’m a PhD student in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University.
-I use computational text analysis to study social factors such as identity, power, and influence. 
-My dissertation investigates how people use language to represent their own identities and those of others in social media and online narrative.
-This work combines methods from natural language processing and machine learning with theories from sociolinguistics, discourse analysis, and the social sciences.
 {: .bio}
+I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center. I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism.
+
+In 2021, I finished my PhD in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
+My dissertation investigated how people use language to represent their own identities and those of others in social media and online narrative.
+
+My work combines methods from natural language processing, network science, and machine learning with theories from linguistics and the social sciences.
 
 ## Publications and Presentations
 {: #publications}
@@ -37,7 +36,7 @@ Michael Miller Yoder, Sopan Khosla, Qinlan Shen, Aakanksha Naik, Huiming Jin, Ha
 **Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum**  
 Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn Rosé  
 International Society of the Learning Sciences (ISLS). 2021.  
-<span class="badge conference-presentation">conference presentation</span>
+<span class="badge conference">conference paper</span> [pdf](https://repository.isls.org/bitstream/1/7539/1/617-620.pdf)
 <hr>
 
 <!--[Phans, Stans and Cishets: Self-Presentation Effects on Content Propagation in Tumblr](https://dl.acm.org/doi/pdf/10.1145/3394231.3397893)  -->
