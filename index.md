@@ -35,7 +35,7 @@ Michael Miller Yoder, Sopan Khosla, Qinlan Shen, Aakanksha Naik, Huiming Jin, Ha
 
 **Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum**  
 Cansu Tatar, Michael Miller Yoder, Madeleline Coven, Kenia Wiedemann, Jie Chao, William Finzer, Shiyan Jiang, Carolyn Rosé  
-International Society of the Learning Sciences (ISLS). 2021.  
+*Proceedings of the International Society of the Learning Sciences (ISLS)*. 2021.  
 <span class="badge conference">conference paper</span> [pdf](https://repository.isls.org/bitstream/1/7539/1/617-620.pdf)
 <hr>
 
