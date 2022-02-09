@@ -9,7 +9,7 @@ title:
 {::options parse_block_html="true" /}
 ## Bio
 {: .bio}
-I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a>. I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism.
+I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a>, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. In my research, I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism.
 
 In 2021, I finished my PhD in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 My dissertation investigated how people use language to represent their own identities and those of others in social media and online narrative.
