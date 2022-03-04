@@ -23,7 +23,7 @@ My work combines methods from natural language processing, network science, and 
 
 **StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**
 Jie Chao, Bill Finzer, Carolyn P. Rosé, Shiyan Jiang, Michael Miller Yoder, James Fiacco, Chas Murray, Cansu Tatar, Kenia Wiedemann
-*SIGCSE 2022: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V.2*. 2022.
+*SIGCSE 2022: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 2*. 2022.  
 <span class="badge demo">demo</span> [abstract](https://dl.acm.org/doi/10.1145/3478432.3499267)
 <hr>
 
