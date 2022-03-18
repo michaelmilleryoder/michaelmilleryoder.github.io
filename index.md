@@ -7,7 +7,6 @@ layout: home
 title: 
 ---
 {::options parse_block_html="true" /}
-## Bio
 {: .bio}
 I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a>, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. In my research, I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism.
 
@@ -21,9 +20,9 @@ My work combines methods from natural language processing, network science, and 
 
 <div class="publications">
 
-**StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**
-Jie Chao, Bill Finzer, Carolyn P. Rosé, Shiyan Jiang, Michael Miller Yoder, James Fiacco, Chas Murray, Cansu Tatar, Kenia Wiedemann
-*SIGCSE 2022: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 2*. 2022.  
+**StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**  
+Jie Chao, Bill Finzer, Carolyn P. Rosé, Shiyan Jiang, Michael Miller Yoder, James Fiacco, Chas Murray, Cansu Tatar, Kenia Wiedemann  
+*SIGCSE 2022: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 2*. 2022.   
 <span class="badge demo">demo</span> [abstract](https://dl.acm.org/doi/10.1145/3478432.3499267)
 <hr>
 
