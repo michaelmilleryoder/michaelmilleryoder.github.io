@@ -14,8 +14,9 @@ In 2021, I finished my PhD in the <a href="https://lti.cs.cmu.edu/" target="_bla
 My dissertation investigated how people use language to represent their own identities and those of others in social media and online narrative.
 
 My work combines methods from natural language processing, network science, and machine learning with theories from linguistics and the social sciences.
+I research within the fields of computational social science, computational linguistics, and digital humanities.
 
-## Publications and Presentations
+## Publications
 {: #publications}
 
 <div class="publications">
@@ -52,18 +53,18 @@ Michael Miller Yoder, Qinlan Shen, Yansen Wang, Alex Coda, Yunseok Jang, Yale So
 <hr>
 
 <!--["Everyone is Gay and Nothing Hurts": The Presentation of Queer Relationships in Fanfiction](files/yoder_ach2019_slides.pdf)  -->
-**"Everyone is Gay and Nothing Hurts": The Presentation of Queer Relationships in Fanfiction**  
+<!--**"Everyone is Gay and Nothing Hurts": The Presentation of Queer Relationships in Fanfiction**  
 Michael Miller Yoder, Luke Breitfeller, Carolyn P. Rosé  
 Association for Computers and the Humanities (ACH), Pittsburgh, PA, 2019.  
 <span class="badge conference-presentation">conference presentation</span> [slides](files/yoder_ach2019_slides.pdf)
-<hr>
+<hr>-->
 
 <!--[Ron the Death Eater: Plotting Characterization from Canon to Fanfiction](files/yoder_standd2019_slides.pdf)  -->
-**Ron the Death Eater: Plotting Characterization from Canon to Fanfiction**  
+<!--**Ron the Death Eater: Plotting Characterization from Canon to Fanfiction**  
 Michael Miller Yoder, Qinlan Shen, James Fiacco, Carolyn P. Rosé  
 Society for Text & Discourse (ST&D), New York, NY, 2019.  
 <span class="badge conference-presentation">conference presentation</span> [slides](files/yoder_standd2019_slides.pdf)
-<hr>
+<hr>-->
 
 <!--[Perceptions of Censorship and Moderation Bias in Political Debate Forums](https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17809/17026)  -->
 **Perceptions of Censorship and Moderation Bias in Political Debate Forums**  
