@@ -22,7 +22,7 @@ I research within the fields of computational social science, computational ling
 <div class="publications">
 
 **Research Needs for Countering Extremist Hate**  
-Michael Miller Yoder, Hana Habib
+Michael Miller Yoder, Hana Habib  
 Collaboratory Against Hate. 2022.   
 <span class="badge whitepaper">whitepaper</span> [pdf](https://drive.google.com/file/d/19d88rRAUId6B-prTOo4t5gnMHTPhSE-Q/view)
 <hr>
