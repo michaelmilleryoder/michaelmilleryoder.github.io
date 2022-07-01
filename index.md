@@ -21,6 +21,12 @@ I research within the fields of computational social science, computational ling
 
 <div class="publications">
 
+**Research Needs for Countering Extremist Hate**  
+Michael Miller Yoder, Hana Habib
+Collaboratory Against Hate. 2022.   
+<span class="badge whitepaper">demo</span> [pdf](https://drive.google.com/file/d/19d88rRAUId6B-prTOo4t5gnMHTPhSE-Q/view)
+<hr>
+
 **StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**  
 Jie Chao, Bill Finzer, Carolyn P. Rosé, Shiyan Jiang, Michael Miller Yoder, James Fiacco, Chas Murray, Cansu Tatar, Kenia Wiedemann  
 *SIGCSE 2022: Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 2*. 2022.   
