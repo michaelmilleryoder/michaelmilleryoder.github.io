@@ -24,7 +24,7 @@ I research within the fields of computational social science, computational ling
 **Research Needs for Countering Extremist Hate**  
 Michael Miller Yoder, Hana Habib
 Collaboratory Against Hate. 2022.   
-<span class="badge whitepaper">demo</span> [pdf](https://drive.google.com/file/d/19d88rRAUId6B-prTOo4t5gnMHTPhSE-Q/view)
+<span class="badge whitepaper">whitepaper</span> [pdf](https://drive.google.com/file/d/19d88rRAUId6B-prTOo4t5gnMHTPhSE-Q/view)
 <hr>
 
 **StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**  
