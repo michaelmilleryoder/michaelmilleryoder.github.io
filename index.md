@@ -21,6 +21,12 @@ I research within the fields of computational social science, computational ling
 
 <div class="publications">
 
+**An empirical analysis of high school students' practices of modelling with unstructured data**
+Shiyan Jiang, Amato Nocera, Cansu Tatar, Michael Miller Yoder, Jie Chao, Kenia Wiedemann, William Finzer, Carolyn P. Rosé
+*British Journal of Educational Technology.* 2022.  
+<span class="badge journal">journal article</span> [article page](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13253)  
+<hr>
+
 **Research Needs for Countering Extremist Hate**  
 Michael Miller Yoder, Hana Habib  
 Collaboratory Against Hate. 2022.   
@@ -33,7 +39,7 @@ Jie Chao, Bill Finzer, Carolyn P. Rosé, Shiyan Jiang, Michael Miller Yoder, Jam
 <span class="badge demo">demo</span> [abstract](https://dl.acm.org/doi/10.1145/3478432.3499267)
 <hr>
 
-**Computational Models of Identity Presentation in Language**  
+**Computational models of identity presentation in language**  
 Michael Miller Yoder  
 PhD dissertation, Language Technologies Institute, Carnegie Mellon University. 2021.  
 <span class="badge thesis">thesis</span> [pdf](files/yoder_thesis.pdf)  
@@ -80,7 +86,7 @@ Qinlan Shen, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé
 <hr>
 
 <!--[Unpacking a Political Icon: "Bike Lanes" and Orders of Indexicality](http://journals.sagepub.com/doi/full/10.1177/1750481317745753)  -->
-**Unpacking a Political Icon: "Bike Lanes" and Orders of Indexicality**   
+**Unpacking a political icon: "Bike lanes" and orders of indexicality**   
 Michael Miller Yoder, Barbara Johnstone  
 *Discourse & Communication.* 2018.  
 <span class="badge journal">journal article</span> [article page](http://journals.sagepub.com/doi/full/10.1177/1750481317745753) &middot; [preprint](files/yoder_johnstone_2018.pdf) &middot; [slides](files/yoder_johnstone_slides_2018.pdf)
