@@ -24,7 +24,7 @@ I research within the fields of computational social science, computational ling
 **An empirical analysis of high school students' practices of modelling with unstructured data**  
 Shiyan Jiang, Amato Nocera, Cansu Tatar, Michael Miller Yoder, Jie Chao, Kenia Wiedemann, William Finzer, Carolyn P. Rosé  
 *British Journal of Educational Technology.* 2022.  
-<span class="badge journal">journal article</span> [article page](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13253)  
+<span class="badge journal">journal article</span> [article page](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13253) &middot; [pdf](https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1111/bjet.13253)  
 <hr>
 
 **Research Needs for Countering Extremist Hate**  
