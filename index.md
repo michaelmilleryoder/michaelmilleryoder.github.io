@@ -96,7 +96,7 @@ Michael Miller Yoder, Barbara Johnstone
 **Roles and Success in Wikipedia Talk Pages: Identifying Latent Patterns of Behavior**  
 Keith Maki, Michael Miller Yoder, Yohan Jo, Carolyn P. Rosé  
 *Proceedings of the International Joint Conference on Natural Language Processing (IJCNLP)*. 2017.  
-**Best Student Paper.**  
+**Best Student Paper Award.**  
 <span class="badge conference">conference paper</span> [pdf](http://www.aclweb.org/anthology/I17-1103) &middot; [data](https://github.com/michaelmilleryoder/wikipedia-talk-scores) &middot; [slides](files/maki_ijcnlp2017_slides.pdf)
 <hr>
 
