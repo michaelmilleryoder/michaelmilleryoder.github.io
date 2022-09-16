@@ -30,7 +30,7 @@ Shiyan Jiang, Amato Nocera, Cansu Tatar, Michael Miller Yoder, Jie Chao, Kenia W
 **Research Needs for Countering Extremist Hate**  
 Michael Miller Yoder, Hana Habib  
 Collaboratory Against Hate. 2022.   
-<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/research-needs) [pdf](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63247ec32084819a7f657240_CAH_research_needs_white_paper.pdf)
+<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/research-needs) &middot; [pdf](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63247ec32084819a7f657240_CAH_research_needs_white_paper.pdf)
 <hr>
 
 **StoryQ: A Web-Based Machine Learning and Text Mining Tool for K-12 Students**  
