@@ -21,6 +21,12 @@ I research within the fields of computational social science, computational ling
 
 <div class="publications">
 
+**How Hate Speech Varies by Target Identity: A Computational Analysis**  
+Michael Miller Yoder, Lynnette Hui Xian Ng, David West Brown, Kathleen M. Carley  
+*Proceedings of the Conference on Natural Language Learning (CoNLL)*. 2022.  
+<span class="badge conference">conference paper</span>
+<hr>
+
 **An empirical analysis of high school students' practices of modelling with unstructured data**  
 Shiyan Jiang, Amato Nocera, Cansu Tatar, Michael Miller Yoder, Jie Chao, Kenia Wiedemann, William Finzer, Carolyn P. Rosé  
 *British Journal of Educational Technology.* 2022.  
