@@ -21,6 +21,12 @@ I research within the fields of computational social science, computational ling
 
 <div class="publications">
 
+**The Relationship Between Antisemitism and COVID-19 Conspiracy on Twitter**  
+Grace Garner, Madeleine McGrann, Maja Lynn, Rachel Kranson, Michael Miller Yoder, Daniel Klug  
+Collaboratory Against Hate. 2022.   
+<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter) &middot; [pdf](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)
+<hr>
+
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
 Michael Miller Yoder, Lynnette Hui Xian Ng, David West Brown, Kathleen M. Carley  
 *Proceedings of the Conference on Computational Natural Language Learning (CoNLL)*. 2022.  
