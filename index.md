@@ -30,7 +30,7 @@ Collaboratory Against Hate. 2022.
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
 Michael Miller Yoder, Lynnette Hui Xian Ng, David West Brown, Kathleen M. Carley  
 *Proceedings of the Conference on Computational Natural Language Learning (CoNLL)*. 2022.  
-<span class="badge conference">conference paper</span> [pdf](https://aclanthology.org/2022.conll-1.3.pdf) &middot; [data](https://osf.io/53tfs/) &middot; [code](https://github.com/michaelmilleryoder/hate_speech_identities)  
+<span class="badge conference">conference paper</span> [pdf](https://aclanthology.org/2022.conll-1.3v2.pdf) &middot; [data](https://osf.io/53tfs/) &middot; [code](https://github.com/michaelmilleryoder/hate_speech_identities)  
 <hr>
 
 **An empirical analysis of high school students' practices of modelling with unstructured data**  
