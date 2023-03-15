@@ -21,6 +21,12 @@ I research within the fields of computational social science, computational ling
 
 <div class="publications">
 
+**Online to Offline Crossover of White Supremacist Propaganda**  
+Ahmad Diab, Bolor-Erdene Jagdagdorj, Lynnette Hui Xian Ng, Yu-Ru Lin, Michael Miller Yoder  
+*International Workshop on Cyber Social Threats (CySoc 2023), Companion Proceedings of the ACM Web Conference*. 2023.   
+<span class="badge workshop-paper">workshop paper</span> [preprint](https://arxiv.org/pdf/2303.07838.pdf)  
+<hr>
+
 **The Relationship Between Antisemitism and COVID-19 Conspiracy on Twitter**  
 Grace Garner, Madeleine McGrann, Maja Lynn, Rachel Kranson, Michael Miller Yoder, Daniel Klug  
 Collaboratory Against Hate. 2022.   
