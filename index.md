@@ -16,6 +16,10 @@ My dissertation investigated how people use language to represent their own iden
 My work combines methods from natural language processing, network science, and machine learning with theories from linguistics and the social sciences.
 I research within the fields of computational social science, computational linguistics, and digital humanities.
 
+## Press and writing
+* [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/), Atiya Irvin-Mitchell, Technical.ly, 2023.  
+* [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech), Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
+
 ## Publications
 {: #publications}
 
