@@ -8,10 +8,7 @@ title:
 ---
 {::options parse_block_html="true" /}
 {: .bio}
-I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. In my research, I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism.
-
-In 2021, I finished my PhD in the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University’s School of Computer Science, advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
-My dissertation investigated how people use language to represent their own identities and those of others in social media and online narrative.
+I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. In my research, I use computational text analysis to study social factors such as identity, power, and influence. I currently focus on computational approaches to countering hate speech and online extremism. I have a PhD from the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, were I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
 My work combines methods from natural language processing, network science, and machine learning with theories from linguistics and the social sciences.
 I research within the fields of computational social science, computational linguistics, and digital humanities.
@@ -40,7 +37,7 @@ Collaboratory Against Hate. 2022.
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
 Michael Miller Yoder, Lynnette Hui Xian Ng, David West Brown, Kathleen M. Carley  
 *Proceedings of the Conference on Computational Natural Language Learning (CoNLL)*. 2022.  
-<span class="badge conference">conference paper</span> [pdf](https://aclanthology.org/2022.conll-1.3v2.pdf) &middot; [data](https://osf.io/53tfs/) &middot; [code](https://github.com/michaelmilleryoder/hate_speech_identities)  
+<span class="badge conference">conference paper</span> [pdf](https://aclanthology.org/2022.conll-1.3v2.pdf) &middot; [data](https://osf.io/53tfs/) &middot; [code](https://github.com/michaelmilleryoder/hate_speech_identities) &middot; [blog](https://www.cmu.edu/ideas-social-cybersecurity/news1/blog-posts/blog-yoder-hating-who.html)  
 <hr>
 
 **An empirical analysis of high school students' practices of modelling with unstructured data**  
