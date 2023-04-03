@@ -12,7 +12,7 @@ I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' ta
 
 In my research, I use natural language processing and network analysis to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.  
 
-**Research interests**: computational social science, computational linguistics, network analysis, digital humanities
+**Research interests**: computational social science, computational linguistics, digital humanities
 
 ## Press and writing
 * [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/), Atiya Irvin-Mitchell, Technical.ly, 2023.  
