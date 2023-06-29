@@ -8,7 +8,7 @@ title:
 ---
 {::options parse_block_html="true" /}
 {: .bio}
-I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I have a PhD from the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, were I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
+I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, were I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
 My research uses methods from computational social science and computational linguistics to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
 
@@ -21,16 +21,28 @@ My research uses methods from computational social science and computational lin
 
 <div class="publications">
 
+**A Weakly Supervised Classifier and Dataset of White Supremacist Language**  
+Michael Miller Yoder, Ahmad Diab, David West Brown, Kathleen M. Carley  
+*Proceedings of the Association for Computational Linguistics (ACL)*. 2023.  
+<span class="badge conference">conference paper</span> [preprint](https://arxiv.org/pdf/2306.15732.pdf) &middot; [data](https://osf.io/274z3/) &middot; [code](https://github.com/michaelmilleryoder/white_supremacist_lang/)  
+<hr>
+
+**Identity Construction on a Misogynist Incels Forum**  
+Michael Miller Yoder, Chloe Perry, David West Brown, Kathleen M. Carley, Meredith Pruden  
+*Proceedings of the Workshop on Online Abuse and Harms (WOAH)*. 2023.  
+<span class="badge workshop-paper">workshop paper</span> [preprint](https://arxiv.org/pdf/2306.15745.pdf)  
+<hr>
+
 **Online to Offline Crossover of White Supremacist Propaganda**  
 Ahmad Diab, Bolor-Erdene Jagdagdorj, Lynnette Hui Xian Ng, Yu-Ru Lin, Michael Miller Yoder  
 *International Workshop on Cyber Social Threats (CySoc 2023), Companion Proceedings of the ACM Web Conference*. 2023.   
-<span class="badge workshop-paper">workshop paper</span> [preprint](https://arxiv.org/pdf/2303.07838.pdf)  
+<span class="badge workshop-paper">workshop paper</span> [article page](https://dl.acm.org/doi/10.1145/3543873.3587569) &middot; [preprint](https://arxiv.org/pdf/2303.07838.pdf)  
 <hr>
 
 **The Relationship Between Antisemitism and COVID-19 Conspiracy on Twitter**  
-Grace Garner, Madeleine McGrann, Maja Lynn, Rachel Kranson, Michael Miller Yoder, Daniel Klug  
-Collaboratory Against Hate. 2022.   
-<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter) &middot; [pdf](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)
+Grace Garner, Madeleine McGrann, Daniel Klug, Rachel Kranson, Michael Miller Yoder
+International Communication Association Conference (ICA), Toronto, Canada, 2023.   
+<span class="badge conference-presentation">conference presentation</span> [preprint](https://mediarxiv.org/syrac/) &middot; [webpage](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter) &middot; [whitepaper](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)
 <hr>
 
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
