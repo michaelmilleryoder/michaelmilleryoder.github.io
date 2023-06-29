@@ -14,8 +14,10 @@ I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' ta
 My research uses methods from computational social science and computational linguistics to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
 
 ## Press and writing
-* [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/), Atiya Irvin-Mitchell, Technical.ly, 2023.  
-* [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech), Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
+* [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
+Atiya Irvin-Mitchell, Technical.ly, 2023.  
+* [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech)  
+ Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
 
 ## Publications
 {: #publications}
