@@ -10,6 +10,7 @@ title:
 {: .bio}
 I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, were I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
+{: .bio}
 My research uses methods from computational social science and computational linguistics to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
 
 ## Press and writing
@@ -40,9 +41,10 @@ Ahmad Diab, Bolor-Erdene Jagdagdorj, Lynnette Hui Xian Ng, Yu-Ru Lin, Michael Mi
 <hr>
 
 **The Relationship Between Antisemitism and COVID-19 Conspiracy on Twitter**  
-Grace Garner, Madeleine McGrann, Daniel Klug, Rachel Kranson, Michael Miller Yoder
+Grace Garner, Madeleine McGrann, Daniel Klug, Rachel Kranson, Michael Miller Yoder  
 International Communication Association Conference (ICA), Toronto, Canada, 2023.   
-<span class="badge conference-presentation">conference presentation</span> [preprint](https://mediarxiv.org/syrac/) &middot; [webpage](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter) &middot; [whitepaper](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)
+<span class="badge conference-presentation">conference presentation</span> [preprint](https://mediarxiv.org/syrac/) &middot; [whitepaper](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter)   
+<!--&middot; [whitepaper](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)-->
 <hr>
 
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
