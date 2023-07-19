@@ -30,7 +30,7 @@ Michael Miller Yoder, Ahmad Diab, David West Brown, Kathleen M. Carley
 <span class="badge conference">conference paper</span> [preprint](https://arxiv.org/pdf/2306.15732.pdf) &middot; [data](https://osf.io/274z3/) &middot; [code](https://github.com/michaelmilleryoder/white_supremacist_lang/)  
 <hr>
 
-**Identity Construction on a Misogynist Incels Forum**  
+**Identity Construction in a Misogynist Incels Forum**  
 Michael Miller Yoder, Chloe Perry, David West Brown, Kathleen M. Carley, Meredith Pruden  
 *Proceedings of the Workshop on Online Abuse and Harms (WOAH)*. 2023.  
 <span class="badge workshop-paper">workshop paper</span> [preprint](https://arxiv.org/pdf/2306.15745.pdf)  
