@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Teaching"
+    url: /teaching
   - title: "Publications"
     url: /#publications
     #url: /index.html#publications
