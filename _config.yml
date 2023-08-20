@@ -270,6 +270,14 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  cs2715_fall2023:
+    output: true
+    permalink: /:collection/:path
+
+collections_dir: collections
+
 # Defaults
 defaults:
   # _posts
