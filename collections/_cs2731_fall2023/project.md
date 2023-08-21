@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Final Project (CS 2715 Fall 2023)
+title: Final Project (CS 2731 Fall 2023)
 ---
 
-# Final Project (CS 2715 Fall 2023)
+# Final Project (CS 2731 Fall 2023)
 A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize and implement current approaches and challenges in a subfield of NLP and make a contribution to this NLP research area.
 
 ## Groups
@@ -22,7 +22,7 @@ Projects will be done by 1-3 students, usually 2 students. Groups will be assign
 	6. What algorithm or approach are you taking to address the task?
 	7. How are you evaluating your contribution? What performance metrics are you going to use?
 	8. What kinds of ethical issues may be raised by your model or data?
-4. **Baseline implementations or basic working system**. A brief report and code of a basic working system bSome sort of basic working system will be required
+4. **Basic working system**. A brief report and code of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality.
 
 ## Types of contributions
 
