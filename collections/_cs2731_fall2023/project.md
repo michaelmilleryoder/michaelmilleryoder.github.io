@@ -32,9 +32,39 @@ Your goal is to make a contribution, even a small one, to NLP research or practi
 
 1. *New dataset and/or new annotation*. This often accompanies the introduction of a new NLP task, which could be a previously unstudied phenomenon (e.g. ["verifiability"](https://aclanthology.org/I17-1076.pdf)).
 
-2. *Methods contribution*. This is perhaps the most common sort of NLP research contribution, in which a new method or algorithm for approaching a task is presented.
+2. *New approach or method*. This is perhaps the most common sort of NLP research contribution, in which a new method or algorithm for approaching a task is presented. Applying an existing method in a new context or task (as might be necessary in an industry setting) would also fit within this contribution.
+
+3. *New evaluation*. Good automated evaluations of machine learning systems are hard to come by. Ideally they correlate with human judgments of quality and capture key elements of the phenomenon being modeled while also being robust to adversarial attacks. This may be a difficult contribution to make without being very familiar with a research area, but there is often a need for new evaluations for specific NLP applications.
+
+4. *New survey or position paper*. Surveys are especially needed for new, emerging research areas. All projects will require a literature review, but a survey paper would be both broader and go much more in depth. It would summarize key approaches and key challenges and present lines for future work. Some sort of implementation is necessary for this type of contribution as well, such as applying multiple established methods to a new dataset or in a new context to show challenges that need to be addressed.
 
 ## NLP research areas
+Early on, groups will select an NLP research area to focus their project on (or multiple areas, if applicable). Here is a list of NLP research areas in alphabetical order, drawn mostly from the [ACL Rolling Review list](https://aclrollingreview.org/cfp). You can also pursue a project in a different area with instructor permission.
+
+* *Computational Social Science and Cultural Analytics*. Using NLP to study societies and cultural texts, as well as developing tools that process language in social context. This is the instructor's main research area and many of the example project ideas focusing on hate speech would fit within this area.
+* *Dialogue and Interactive Systems*. NLP systems that interact conversationally, as well as systems that analyze human conversation.
+* *Discourse and Pragmatics*. Discourse here refers to linguistic structure beyond the a sentence level. This includes predicting the coherence of different sentences together (discourse coherence) and the relations between sentences (discourse relations). It also includes parsing rhetorical structures of texts such as essays.
+* *Efficient/Low-Resource Methods for NLP*. This includes computational and energy efficiency. How do we get similar performance with models with fewer parameters and less demanding computational requirements?
+* *Ethics, Bias, and Fairness*. There's a lot of focus on this area with LLMs right now.
+* *Generation*. This includes language and code generation, as well as interesting applications like story and narrative generation.
+* *Information Extraction*. This includes extracting and linking events and particular types of entities, timelines, and locations.
+* *Information Retrieval and Text Mining*. This includes searching for particular kinds of information from large text corpora.
+* *Interpretability and Analysis of Models for NLP*. Many NLP and ML models are quite uninterpretable; this area addresses this.
+* *Linguistic theories, Cognitive Modeling and Psycholinguistics*. This area includes work that applies or evaluates linguistic and cognitive theories of language with computational models.
+* *Machine Learning for NLP*. This area includes core ML improvements for NLP, as well as applying new ML methods to language.
+* *Machine Translation*. Automatic translation between languages.
+* *Multilinguality and Language Diversity*. Too much NLP work is solely in English or other "high-resource" languages. This area addresses this problem and also handles language diversity such as code-switching.
+* *Multimodality and Language Grounding to Vision, Robotics and Beyond*. Language is often used by humans in tandem with vision and motion. NLP models within this area take this into account.
+* *NLP Applications*. This area would include applications such as educational applications (like automated essay grading) or in areas such as human rights (see aporaphobia paper) or industry settings.
+* *Phonology, Morphology and Word Segmentation*. This area includes linguistic areas that study how sounds and parts of words fit together to produce meaning. Computational approaches from NLP can extract and model this subword information at scale.
+* *Question Answering*. Automatically answering questions posed by humans.
+* *Semantics: Lexical*. Approaches that model word meanings and semantic relationships between words.
+* *Semantics: Sentence-level Semantics, Textual Inference and Other areas*. This area includes tasks of natural language inference and coreference resolution.
+* *Sentiment Analysis, Stylistic Analysis, and Argument Mining*. Extracting and analyzing sentiments (pro vs con), styles, and arguments.
+* *Speech recognition, text-to-speech and spoken language understanding*.
+* *Summarization*. Automatic approaches to summarizing texts.
+* *Syntax: Tagging, Chunking and Parsing*. Computational approaches to extracting grammatical structure from text, including part-of-speech tagging, dependency parsing, and constituency parsing.
+
 
 ## Examples
 
