@@ -34,7 +34,7 @@ Your goal is to make a contribution, even a small one, to NLP research or practi
 Data is at the heart of machine learning and NLP systems. 
 
 #### Example project ideas
-* Hate speech is often expressed in a "joking" manner, yet hate speech classifiers struggle to identify hate speech in irony and humor. Build a dataset of hate speech in jokes ("light talk") to aid future NLP classifiers. This dataset could be collected from sites that are known for both hateful content and a "humorous" tone, and portions could be annotated for hate speech and/or types of humor. This could be an expansion of prior work that provides a dataset of offense in humor: https://competitions.codalab.org/competitions/27446 
+* Hate speech is often expressed in a "joking" manner, yet hate speech classifiers struggle to identify hate speech in irony and humor. Build a dataset of hate speech in jokes ("light talk") to aid future NLP classifiers. This dataset could be collected from sites that are known for both hateful content and a "humorous" tone, and portions could be annotated for hate speech and/or types of humor. This could be an expansion of prior work that provides a dataset of offense in humor: [https://competitions.codalab.org/competitions/27446](https://competitions.codalab.org/competitions/27446) 
 * Hate speech is culturally specific, yet the majority of NLP work focuses on English in North American and European contexts. A quantitative analysis of different features of datasets annotated for hate speech in multiple languages and from multiple cultural contexts would illuminate global similarities and culturally specific contexts.
 * Speech acts are the "actions" that speakers intend with utterances (such as asking a question or giving an explanation). Emojis may help automated systems determine speech acts. Build a dataset of utterances with and without emojis and annotate these for speech acts. Build a simple classifier with interpretable features and see if emojis are informative.
 * Build a dataset of text from different personas from fiction roleplaying sites ("language cosplaying" in China). This could be useful for dialogue systems that adopt personas, or for story generation.
@@ -85,7 +85,7 @@ Surveys are especially needed for new, emerging research areas. All projects wil
 
 
 ## NLP research areas
-Early on, groups will select an NLP research area to focus their project on (or multiple areas, if applicable). Here is a list of NLP research areas in alphabetical order, drawn mostly from the [ACL Rolling Review list](https://aclrollingreview.org/cfp). You can also pursue a project in a different area with instructor permission.
+Early on, groups will select an NLP research area to focus their project on (or multiple areas, if applicable). Here is a list of NLP research areas in alphabetical order, drawn from the [ACL Rolling Review list](https://aclrollingreview.org/cfp). You can also pursue a project in a different area with instructor permission.
 
 * *Computational Social Science and Cultural Analytics*. Using NLP to study societies and cultural texts, as well as developing tools that process language in social context. This is the instructor's main research area and many of the example project ideas focusing on hate speech would fit within this area.
 * *Dialogue and Interactive Systems*. NLP systems that interact conversationally, as well as systems that analyze human conversation.
