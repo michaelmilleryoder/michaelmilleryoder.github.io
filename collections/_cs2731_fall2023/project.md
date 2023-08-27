@@ -3,7 +3,7 @@ layout: default
 title: Final Project (CS 2731 Fall 2023)
 ---
 
-# Final Project (CS 2731 Fall 2023)
+# Final Project ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
 A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize and implement current approaches and challenges in a subfield of NLP and make a contribution to this NLP research area.
 
 ## Groups
