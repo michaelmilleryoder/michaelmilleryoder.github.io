@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: class
 title: Final Project (CS 2731 Fall 2023)
 ---
 
