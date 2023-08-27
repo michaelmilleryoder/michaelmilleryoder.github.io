@@ -31,7 +31,7 @@ It is recommended to start on the literature review early on, since existing wor
 Your goal is to make a contribution, even a small one, to NLP research or practice. You can select from the following types of contributions, combine multiple of them, or define a different type of contribution with instructor approval. Example project ideas and projects are provided (with a significant bias toward computational social science and hate speech, the instructor's research area). Groups are also encouraged to come up with their own ideas! Projects can be related to students' research, but should not be projects for other classes.
 
 ### 1. New dataset, annotations, or analysis of existing datasets
-Data is at the heart of machine learning and NLP systems. 
+Data is at the heart of machine learning and NLP systems; it enables further modeling and encapsulates what NLP systems "know".
 
 #### Example project ideas
 * Hate speech is often expressed in a "joking" manner, yet hate speech classifiers struggle to identify hate speech in irony and humor. Build a dataset of hate speech in jokes ("light talk") to aid future NLP classifiers. This dataset could be collected from sites that are known for both hateful content and a "humorous" tone, and portions could be annotated for hate speech and/or types of humor. This could be an expansion of prior work that provides a dataset of offense in humor: [https://competitions.codalab.org/competitions/27446](https://competitions.codalab.org/competitions/27446) 
