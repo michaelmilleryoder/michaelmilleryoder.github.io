@@ -42,7 +42,7 @@ Data is at the heart of machine learning and NLP systems; it enables further mod
 #### Example projects
 * [Newell et al. 2017](https://aclanthology.org/I17-1076.pdf): "Verifiability" of claims made in news. New datasets often accompany the introduction of a new NLP task, which could be a previously unstudied phenomenon like verifiability in this one.
 
-### 2. New approach or method 
+### 2. New approach or application 
 This is perhaps the most common sort of NLP research contribution, in which a new method or algorithm for approaching a task (which could be a new task) is presented. Applying an existing method in a new context or task (as might be necessary in an industry setting) would also fit within this contribution.
 
 #### Example project ideas
@@ -81,7 +81,7 @@ Surveys are especially needed for new, emerging research areas. All projects wil
 #### Example project ideas
 * Survey how NLP is used and applied in other fields. What has ben our most useful contributions to scholars in the social sciences, physical sciences, or humanities? This survey would assemble papers across disciplines for mentions of NLP and summarize what is most useful, what is lacking, and what approaches from NLP could be helpful to others.
 * Computational social science using NLP generally relies on data from online communities. But this is missing non-online interactions and the practices of those who are not active online. Survey datasets and approaches that use quantitative and computational techniques on recordings of offline linguistic interaction.
-* A growing area of research in computational social science aims to capture the framing and portrayal of entities across large text corpora (such as in [news media](https://ojs.aaai.org/index.php/ICWSM/article/download/3358/3226/). Survey existing approaches and challenges.
+* A growing area of research in computational social science aims to capture the framing and portrayal of entities across large text corpora (such as in [news media](https://ojs.aaai.org/index.php/ICWSM/article/download/3358/3226/)). Survey existing approaches and challenges.
 
 
 ## NLP research areas
