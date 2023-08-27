@@ -74,5 +74,10 @@ hr {
 }
 
 .layout--class {
-  padding-top: 18px
+  padding-top: 18px;
+  font-size: 14px;
+}
+
+div.layout--class p {
+  line-height: 1.2;
 }
