@@ -17,7 +17,8 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+	{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+	  {% include page__hero.html %}
 
     <div id="main" role="main">
       {{ content }}
