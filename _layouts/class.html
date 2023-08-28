@@ -19,6 +19,7 @@
     {% include_cached browser-upgrade.html %}
 	{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
 	  {% include page__hero.html %}
+	{% endif %}
 
     <div id="main" role="main">
       {{ content }}
