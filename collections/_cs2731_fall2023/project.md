@@ -2,17 +2,18 @@
 layout: class
 title: Final Project (CS 2731 Fall 2023)
 ---
+*Last revised 2023-08-30.*
 
 # Final Project ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize and implement current approaches and challenges in a subfield of NLP and make a contribution to this NLP research area.
+A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize current approaches and challenges in a subfield of NLP and implement some sort of contribution (however small) to this NLP area of research or practice.
 
 ## Groups
-Projects will be done by 1-3 students, usually 2 students. Groups will be assigned by the instructor and TA based on interests and skills, and group preferences from students, in a survey.
+Projects will be done in groups of 2-4 students. Groups will be assigned by the instructor and TA based on interests and skills, and group preferences from students, in a survey.
 
 ## Deliverables
-1. **Project survey**. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
-2. **Project area and type of contribution**. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in office hours.
-3. **Project proposal and literature review**. This proposal will be a report with answers to the following questions:
+1. **[Project survey](https://forms.gle/VNLS8NaKPU762VSh8)**. *Due 08-31*. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
+2. **Project area and type of contribution**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in office hours.
+3. **Project proposal and literature review**. *Due 10-12*. This proposal will be a report with answers to the following questions:
 	1. What type of contribution are you making?
 	2. What is the problem or task you are focusing on?
 	3. What is the nature of your contribution?
@@ -22,10 +23,10 @@ Projects will be done by 1-3 students, usually 2 students. Groups will be assign
 	7. How are you evaluating your contribution? What performance metrics are you going to use?
 	8. What kinds of ethical issues may be raised by your model or data?
 It is recommended to start on the literature review early on, since existing work will inform your specific direction (somebody may have already tried your idea!). The instructor and TA will provide feedback on this proposal and a meeting in office hours if needed. There is no required length or format for this report, but you could use the ACL format that the final report will be formatted in.
-4. **Project proposal presentation**. Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. This presentation should also mention any changes planned based on proposal feedback from the instructor and TA.
-5. **Basic working system**. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. This report should be in the ACL format that the final report will be in.
-6. **Final presentation**. Groups will present their finished work to the group, with Q&A and feedback opportunities from students.
-7. **Final report and code**. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/project/5f64f1fb97c4c50001b60549)). Ideally this would be of a quality and structure that could be submitted to an NLP workshop or conference.
+4. **Project proposal presentation**. *In class 10-18*. Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. This presentation should also mention any changes planned based on proposal feedback from the instructor and TA.
+5. **Basic working system**. *Due 11-16*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. This report should be in the ACL format that the final report will be in.
+6. **Final presentation**. *In class week of 12-11*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students.
+7. **Final report and code**. *Due 12-14*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/project/5f64f1fb97c4c50001b60549)). Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference.
 
 ## Types of contributions
 Your goal is to make a contribution, even a small one, to NLP research or practice. You can select from the following types of contributions, combine multiple of them, or define a different type of contribution with instructor approval. Example project ideas and projects are provided (with a significant bias toward computational social science and hate speech, the instructor's research area). Groups are also encouraged to come up with their own ideas! Projects can be related to students' research, but should not be projects for other classes.
@@ -64,8 +65,12 @@ Existing tasks (some ideas are pulled from Graham Neubig's Advanced NLP class):
 * [Very Low Resource machine translation](http://statmt.org/wmt21/unsup_and_very_low_res.html)
 * Predict the points at which speakers switch languages when code-switching
 * Sign language translation
-* Develop best approaches for training hate speech classifiers that generalize across target identities. Data would be provided by the instructor
+* Develop best approaches for training hate speech classifiers that generalize across targeted identities. Data would be provided by the instructor
+* Style transfer of offensive language into inoffensive language. See [existing paper](https://aclanthology.org/2022.coling-1.530.pdf) and [dataset+code](https://github.com/sabithsn/APPDIA-Discourse-Style-Transfer).
 * Develop new approaches for hate speech detection by comparing with knowledge bases or pretrained models of stereotypes from a stereotype dataset
+* Cross-lingual emotion detection. See [existing paper](https://aclanthology.org/2022.lrec-1.751/).
+* Active learning for NLP. See [existing paper](https://aclanthology.org/2023.findings-acl.342/) and [code](https://github.com/sabithsn/DCALM).
+* Multilingual content moderation on Reddit. See [existing paper](https://aclanthology.org/2023.eacl-main.276/) and [dataset](https://github.com/mye1225/multilingual_content_mod).
 
 
 ### 3. New evaluation
@@ -79,7 +84,7 @@ Good automated evaluations of machine learning systems are hard to come by. Idea
 Surveys are especially needed for new, emerging research areas. All projects will require a literature review, but a survey paper would be both broader and go much more in depth. It would summarize key approaches and key challenges and present lines for future work. Some sort of implementation is necessary for this type of contribution as well, such as applying multiple established methods to a new dataset or in a new context to show challenges that need to be addressed. Position papers argue for a certain viewpoint or shortcoming of existing approaches, e.g. arguing for the utility of techniques from a discipline outside NLP in NLP tasks.
 
 #### Example project ideas
-* Survey how NLP is used and applied in other fields. What has ben our most useful contributions to scholars in the social sciences, physical sciences, or humanities? This survey would assemble papers across disciplines for mentions of NLP and summarize what is most useful, what is lacking, and what approaches from NLP could be helpful to others.
+* Survey how NLP is used and applied in other fields. What has been our most useful contributions to scholars in the social sciences, physical sciences, or humanities? This survey would assemble papers across disciplines for mentions of NLP and summarize what is most useful, what is lacking, and what approaches from NLP could be helpful to others.
 * Computational social science using NLP generally relies on data from online communities. But this is missing non-online interactions and the practices of those who are not active online. Survey datasets and approaches that use quantitative and computational techniques on recordings of offline linguistic interaction.
 * A growing area of research in computational social science aims to capture the framing and portrayal of entities across large text corpora (such as in [news media](https://ojs.aaai.org/index.php/ICWSM/article/download/3358/3226/)). Survey existing approaches and challenges.
 
@@ -110,3 +115,6 @@ Early on, groups will select an NLP research area to focus their project on (or 
 * *Speech recognition, text-to-speech and spoken language understanding*.
 * *Summarization*. Automatic approaches to summarizing texts.
 * *Syntax: Tagging, Chunking and Parsing*. Computational approaches to extracting grammatical structure from text, including part-of-speech tagging, dependency parsing, and constituency parsing.
+
+## How your project will be graded
+To get an A, your group's project should make progress toward an achievable, concrete contribution specified in your project proposal. The project does not necessarily need to be successful in the sense that it outperforms baselines or contributes to our knowledge of a phenomenon. Sometimes ideas don't work, and that's okay. But you need to provide evidence of progress toward that contribution. If you are building a dataset, for example, the dataset needs to be built in some form, even if it is as not as large or as useful as you may have hoped. If you are evaluating a new method for a task, you must have an implementation that tests that method against other baselines, even if it doesn't perform as well as you would have hoped or you didn't get to evaluate it against all the baselines you wanted to. If you are doing a survey, you must distill a sufficient number of papers into themes that comprehensively describe a research area, even if you don't end up finding groundbreaking gaps in knowledge that must be addressed. Feel free to take on more risky ideas, but only if you know you'll have *something* to show for it at the end. The instructor and TA will guide you toward scoping projects that should fulfill this goal in the planning phase through the proposal.
