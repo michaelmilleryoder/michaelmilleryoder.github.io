@@ -9,13 +9,13 @@ In this assignment, you'll build representations for documents and words based o
 ## Datasets and skeleton code
 Here are the materials that you should download for this assignment:
 
-* [Skeleton Python code](skeleton.py)
-* [CSV of the complete works of Shakespeare](shakespeare_plays.csv)
-* [Vocab of the complete works of Shakespeare](vocab.txt)
-* [List of all plays in the dataset](play_names.txt)
-* [SNLI corpus](snli_1.0.zip)
-	* Use the training data CSV or JSON lines file (`snli_1.0_train.jsonl`) in the SNLI corpus. The sentence1 column with premise that was supplied to annotators, and the sentence2 column is the hypotheses that annotators came up with. See other details about the corpus format in the README supplied with SNLI.
-* [List of identity labels](identity_labels.txt) from Rudinger et al. 2017
+* [Skeleton Python code](hw1/skeleton.py)
+* [CSV of the complete works of Shakespeare](hw1/shakespeare_plays.csv)
+* [Vocab of the complete works of Shakespeare](hw1/vocab.txt)
+* [List of all plays in the dataset](hw1/play_names.txt)
+* [SNLI corpus](hw1/snli_1.0.zip)
+	* Use the training data CSV or JSON lines file (`snli_1.0_train.jsonl`) in the SNLI corpus. The sentence1 column with premise that was supplied to annotators, and the sentence2 column is the hypotheses that annotators came up with. See other details about the corpus format in the README supplied with SNLI. [POSSIBLY ARRANGE/COMBINE SENTENCES]
+* [List of identity labels](hw1/identity_labels.txt) from Rudinger et al. 2017
 
 ## Deliverables
 * Your implementations for the functions in the skeleton code `hw4_skeleton_{your pitt id}.py`
