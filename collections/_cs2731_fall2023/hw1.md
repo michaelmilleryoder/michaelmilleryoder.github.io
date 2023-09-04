@@ -38,7 +38,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 ### 1.1 Term-document matrix
 You will write code to compile a term-document matrix for Shakespeare&rsquo;s plays, following the description in the textbook:
 <blockquote>
-    <p>In a<span>&nbsp;</span><em>term-document matrix</em>, each row represents a word in the vocabulary and each column represents a document from some collection. The figure below shows a small selection from a term-document matrix showing the occurrence of four words in four plays by Shakespeare. Each cell in this matrix represents the number of times a particular word (defined by the row) occurs in a particular document (defined by the column). Thus<span>&nbsp;</span><em>clown</em><span>&nbsp;</span>appeared 117 times in Twelfth Night</p>
+    <p>In a<span>&nbsp;</span><em>term-document matrix</em>, each row represents a word in the vocabulary and each column represents a document from some collection. The figure below shows a small selection from a term-document matrix showing the occurrence of four words in four plays by Shakespeare. Each cell in this matrix represents the number of times a particular word (defined by the row) occurs in a particular document (defined by the column). Thus<span>&nbsp;</span><strong>clown</strong><span>&nbsp;</span>appeared 117 times in **Twelfth Night**</p>
 </blockquote>
 
 <table>
@@ -83,7 +83,7 @@ You will write code to compile a term-document matrix for Shakespeare&rsquo;s pl
     </tbody>
 </table>
 
-The dimensions of your term-document matrix will be the number of documents $D$ (in this case, the number of Shakespeare’s plays that we give you in the corpus) by the number of unique word types $`|V|`$ in that collection. The columns represent the documents, and the rows represent the words, and each cell represents the frequency of that word in that document.
+The dimensions of your term-document matrix will be the number of documents $$D$$ (in this case, the number of Shakespeare’s plays that we give you in the corpus) by the number of unique word types $$\vert V \vert$$ in that collection. The columns represent the documents, and the rows represent the words, and each cell represents the frequency of that word in that document.
 
 In your code you will write a function to `create_term_document_matrix`.
 
