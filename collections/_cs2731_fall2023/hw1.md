@@ -113,14 +113,14 @@ All of the following are function stubs in the python code. You just need to fil
 
 Create matrices:
 
-fill out `create_term_document_matrix`
-fill out `create_term_context_matrix `
-fill out `create_tf_idf_matrix       `
-fill out `create_ppmi_matrix       `
+* fill out `create_term_document_matrix`
+* fill out `create_term_context_matrix `
+* fill out `create_tf_idf_matrix       `
+* fill out `create_ppmi_matrix       `
 
 Do some ranking:
 
-fill out `rank_words`
+* fill out `rank_words`
 
 #### 1.5.2 Report
 
