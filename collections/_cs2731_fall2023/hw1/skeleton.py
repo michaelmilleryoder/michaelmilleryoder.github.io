@@ -4,10 +4,11 @@ import csv
 import re
 import random
 import numpy as np
+import scipy
 
 
 def read_in_shakespeare():
-    """Reads in the Shakespeare dataset processesit into a list of tuples.
+    """Reads in the Shakespeare dataset and processes it into a list of tuples.
        Also reads in the vocab and play name lists from files.
 
     Each tuple consists of
@@ -22,7 +23,7 @@ def read_in_shakespeare():
 
     tuples = []
 
-    with open("will_play_text.csv") as f:
+    with open("shakespeare_plays.csv") as f:
         csv_reader = csv.reader(f, delimiter=";")
         for row in csv_reader:
             play_name = row[1]
@@ -75,8 +76,6 @@ def create_term_document_matrix(line_tuples, document_names, vocab):
       a tokenized line from that document.
       document_names: A list of the document names
       vocab: A list of the tokens in the vocabulary
-
-    # NOTE: THIS DOCSTRING WAS UPDATED ON JAN 24, 12:39 PM.
 
     Let m = len(vocab) and n = len(document_names).
 
@@ -133,6 +132,26 @@ def create_tf_idf_matrix(term_document_matrix):
     return None
 
 
+def create_ppmi_matrix(term_context_matrix):
+    """Given the term context matrix, output a PPMI weighted version.
+
+    See section 6.6 in the textbook.
+
+    Hint: Use numpy matrix and vector operations to speed up implementation.
+
+    Input:
+      term_context_matrix: Numpy array where each column represents a context word
+      and each row, the frequency of a word that occurs with that context word.
+
+    Returns:
+      A numpy array with the same dimension as term_context_matrix, where
+      A_ij is weighted by PPMI.
+    """
+
+    # YOUR CODE HERE
+    return None
+
+
 def compute_cosine_similarity(vector1, vector2):
     """Computes the cosine similarity of the two input vectors.
 
@@ -143,8 +162,7 @@ def compute_cosine_similarity(vector1, vector2):
     Returns:
       A scalar similarity value.
     """
-    # YOUR CODE HERE
-    return None
+    return scipy.spatial.distance.cosine(vector1, vector2)
 
 
 def rank_words(target_word_index, matrix):
@@ -177,6 +195,9 @@ if __name__ == "__main__":
     print("Computing term context matrix...")
     tc_matrix = create_term_context_matrix(tuples, vocab, context_window_size=2)
 
+    print("Computing PPMI matrix...")
+    ppmi_matrix = create_ppmi_matrix(tc_matrix)
+
     # random_idx = random.randint(0, len(document_names) - 1)
 
     word = "juliet"
@@ -206,6 +227,15 @@ if __name__ == "__main__":
         % (word)
     )
     ranks, scores = rank_words(vocab_to_index[word], tf_idf_matrix)
+    for idx in range(0,10):
+        word_id = ranks[idx]
+        print("%d: %s; %s" %(idx+1, vocab[word_id], scores[idx]))
+
+    print(
+        '\nThe 10 most similar words to "%s" using cosine-similarity on PPMI matrix are:'
+        % (word)
+    )
+    ranks, scores = rank_words(vocab_to_index[word], ppmi_matrix)
     for idx in range(0,10):
         word_id = ranks[idx]
         print("%d: %s; %s" %(idx+1, vocab[word_id], scores[idx]))
