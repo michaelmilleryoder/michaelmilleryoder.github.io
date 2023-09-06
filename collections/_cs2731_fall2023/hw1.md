@@ -2,9 +2,9 @@
 layout: class
 title: Homework 1 (CS 2731 Fall 2023)
 ---
-*Last updated 2023-09-05.*
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
+*Last updated 2023-09-05.*
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then, you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
 ## Datasets and skeleton code
@@ -15,7 +15,7 @@ Here are the materials that you should download for this assignment:
 * [Vocab of the complete works of Shakespeare](hw1/vocab.txt)
 * [List of all plays in the dataset](hw1/play_names.txt)
 * [SNLI corpus](hw1/snli.csv)
-	* This corpus is of image captions used for the NLP task of "natural language inference" (see dataset paper here [FILL OUT]). The first sentence in each line/document is an image caption and the second is produced by annotators in a certain logical relation with the first (entailment, neutral, contradiction).  [IS THE FIRST ANNOTATOR TOO?]
+	* This corpus is modified from that used for the NLP task of "natural language inference" (see dataset paper here [FILL OUT]). Each line contains a sentence that is either a "premise" (an image caption) or a "hypothesis" produced by annotators to be in a certain logical relation with the associated premise (entailment, neutral, contradiction). You don't need to worry about these details, but the `sentenceID` column is a unique index for each sentence and `captionID` is an ID for all sentences associated with same caption/premise.
 * [List of identity labels](hw1/identity_labels.txt) from Rudinger et al. 2017
 
 ## Part 1: Vector spaces
@@ -32,7 +32,7 @@ Write code to compile a term-document matrix for Shakespeare&rsquo;s plays, foll
             <th>&nbsp;</th>
             <th>As You Like It</th>
             <th>Twelfth Night</th>
-            <th>Julias Caesar</th>
+            <th>Julius Caesar</th>
             <th>Henry V</th>
         </tr>
     </thead>
@@ -112,17 +112,17 @@ Do some ranking:
 In the ranking tasks, play with different vector representations. Does one appear to work better than another, i.e produce better synonyms? Do any interesting patterns emerge? Is weighting with PPMI better than not weighting? How do term-context/PPMI compare to term-document/TF-IDF? Include results and discussion in your report.
 
 ## Part 2
-In this part, you will measure associations between words in a commonly used NLP corpus, SNLI, and comment on the potential for encoding problematic social biases.
+In this part, you will measure associations between words in a commonly used NLP corpus, SNLI, and comment on the potential for encoding problematic social biases. There is no skeleton code for this section, but you can reuse code from Part 1.
 
-First, write a loader for text from the SNLI corpus into a similar text format as the Shakespeare corpus. You can use the `captionID` column as the document name, though this will not be as important since you'll only be building a term-context matrix. You'll still want to tokenize and lowercase the input as was done with the Shakespeare corpus. 
+First, write a loader for text from the SNLI corpus into a similar text format as the Shakespeare corpus. You can use the `sentenceID` column as the document name, though this will not be as important since you'll only be building a term-context matrix. You'll still want to tokenize and lowercase the input as was done with the Shakespeare corpus. 
 
-Build a term-context matrix in a similar fashion as with the Shakespeare corpus and apply PPMI weighting. If this matrix is too big or taking too long to calculate, filter to just words that occur over some frequency threshold $$f$$ in the entire corpus.
+Build a term-context matrix in a similar fashion as with the Shakespeare corpus and apply PPMI weighting. If this matrix is too big or taking too long to calculate, filter to just words that occur over some frequency threshold in the entire corpus.
 
-With that PPMI-weighted term-context matrix, find the vectors for identity labels in the provided list. Look at the top associated context words for identity labels of your choice. Do you see any that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Note that some terms in the list do not occur in the data [SHOULD DROP THEM THEN]. If you try different frequency thresholds, how does that affect the word association results you see?
+With that PPMI-weighted term-context matrix, find the vectors for identity labels in the provided list. Look at the top associated context words for identity labels of your choice. Do you see any that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women).
 
 Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.
 
-Include each of these analysis in the report for this assignment.
+Include each of these analyses in the report for this assignment.
 
 ## Deliverables
 * Your implementations for the functions in the skeleton code `hw4_skeleton_{your pitt id}.py`
