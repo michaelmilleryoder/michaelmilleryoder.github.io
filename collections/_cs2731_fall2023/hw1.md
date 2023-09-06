@@ -15,8 +15,8 @@ Here are the materials that you should download for this assignment:
 * [Vocab of the complete works of Shakespeare](hw1/vocab.txt)
 * [List of all plays in the dataset](hw1/play_names.txt)
 * [SNLI corpus](hw1/snli.csv)
-	* This corpus is modified from that used for the NLP task of "natural language inference" (see dataset paper here [FILL OUT]). Each line contains a sentence that is either a "premise" (an image caption) or a "hypothesis" produced by annotators to be in a certain logical relation with the associated premise (entailment, neutral, contradiction). You don't need to worry about these details, but the `sentenceID` column is a unique index for each sentence and `captionID` is an ID for all sentences associated with same caption/premise.
-* [List of identity labels](hw1/identity_labels.txt) from Rudinger et al. 2017
+	* This corpus is modified from that used for the NLP task of "natural language inference" (see [Bowman et al. 2015 dataset paper](https://aclanthology.org/D15-1075/)). Each line contains a sentence that is either a "premise" (an image caption) or a "hypothesis" produced by annotators to be in a certain logical relation with the associated premise (entailment, neutral, contradiction). You don't need to worry about these details, but the `sentenceID` column is a unique index for each sentence and `captionID` is an ID for all sentences associated with same caption/premise.
+* [List of identity labels](hw1/identity_labels.txt) from [Rudinger et al. 2017](https://aclanthology.org/W17-1609/)
 
 ## Part 1: Vector spaces
 
@@ -138,4 +138,4 @@ Include each of these analyses in the report for this assignment.
 
 
 ## Acknowledgments
-This assignment is adapted from Prof. Diane Litman and Prof. Mark Yatskar, as well from Rudinger et al. 2017.
+This assignment is adapted from Prof. Diane Litman and Prof. Mark Yatskar, as well from [Rudinger et al. 2017](https://aclanthology.org/W17-1609/).
