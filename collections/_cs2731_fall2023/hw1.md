@@ -4,7 +4,7 @@ title: Homework 1 (CS 2731 Fall 2023)
 ---
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-*Last updated 2023-09-05.*
+*Last updated 2023-09-05.*  
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then, you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
 ## Datasets and skeleton code
