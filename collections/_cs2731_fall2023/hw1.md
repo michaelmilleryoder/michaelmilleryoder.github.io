@@ -127,7 +127,7 @@ Representational harms arise when a system (e.g., a search engine) represents so
 </blockquote>
 Types of representational harms from [Blodgett et al. 2020](https://aclanthology.org/2020.acl-main.485/) include:
 <blockquote>
-1. Stereotyping that propagates negative generalizations about particular social groups.   
+1. Stereotyping that propagates negative generalizations about particular social groups<br />
 2. Differences in system performance for different social groups, language that misrepresents the distribution of different social groups in the population, or language that is denigrating to particular social groups.
 </blockquote>
 
