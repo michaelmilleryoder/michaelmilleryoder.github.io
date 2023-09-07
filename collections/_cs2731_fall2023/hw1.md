@@ -4,7 +4,7 @@ title: Homework 1 (CS 2731 Fall 2023)
 ---
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-09-14, 11:59pm. *Instructions last updated 2023-09-05.*
+**Due 2023-09-14, 11:59pm.** *Instructions last updated 2023-09-05.*
 
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
@@ -72,14 +72,14 @@ Write code to compile a term-document matrix for Shakespeare&rsquo;s plays, foll
 The dimensions of your term-document matrix will be the number of documents $$D$$ (in this case, the number of Shakespeare’s plays that we give you in the corpus) by the number of unique word types $$\vert V \vert$$ in that collection. The columns represent the documents, and the rows represent the words, and each cell represents the frequency of that word in that document.
 
 #### Tasks for section 1.3
-In your code you will write a function to `create_term_document_matrix`.
+* Fill out the function stub `create_term_document_matrix`.
 
 ### 1.2 Term-Context Matrix
 
 Instead of using a term-document matrix, a more common way of computing word similarity is by constructing a term-context matrix (also called a term-term or word-word matrix), where columns are labeled by words rather than documents. The dimensionality of this kind of a matrix is $$\vert V \vert$$ by $$\vert V \vert$$. Each cell represents how often the word in the row (the target word) co-occurs with the word in the column (the context) in a training corpus.
 
 #### Tasks for section 1.2
-Implement the `create_term_context_matrix` function. This function specifies the size word window around the target word that you will use to gather its contexts. For instance, if you set that variable to be 4, then you will use 4 words to the left of the target word, and 4 words to its right for the context. In this case, the cell represents the number of times in Shakespeare’s plays the column word occurs in +/-4 word window around the row word.
+* Implement the `create_term_context_matrix` function. This function specifies the size word window around the target word that you will use to gather its contexts. For instance, if you set that variable to be 4, then you will use 4 words to the left of the target word, and 4 words to its right for the context. In this case, the cell represents the number of times in Shakespeare’s plays the column word occurs in +/-4 word window around the row word.
 
 ### 1.3 Evaluating vector spaces
 
@@ -112,14 +112,14 @@ In this part, you will measure associations between words in a commonly used NLP
 
 
 ### Tasks for Part 2
-* . First, write a loader for text from the SNLI corpus into a similar format as the Shakespeare corpus was loaded. You can use the `sentenceID` column as the document name, though this will not be as important since you'll only be building a term-context matrix. You'll still want to tokenize and lowercase the input as was done with the Shakespeare corpus. 
+* First, write a loader for text from the SNLI corpus into a similar format as the Shakespeare corpus was loaded. You can use the `sentenceID` column as the document name, though this will not be as important since you'll only be building a term-context matrix. You'll still want to tokenize and lowercase the input as was done with the Shakespeare corpus. 
 
 * Build a term-context matrix in a similar fashion as with the Shakespeare corpus and apply PPMI weighting. The context window can be your choice; you can also use the whole sentence as the context. If this matrix is too big or taking too long to calculate, filter to just words that occur over some frequency threshold in the entire corpus.
 
 *For the report:*
 * With that PPMI-weighted term-context matrix, find the vectors for identity labels in the provided list. Look at the top associated context words for identity labels of your choice. Do you see any that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Discuss and provide selected results in the report.
 
-* Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.  Provide selected results and discuss findings in the report.
+* Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.  Provide selected results and discuss findings in the report. Do you see evidence for representational harms learned by a bag-of-words model of this SNLI corpus? If so, which type do you see?
 
 * Here is a description of *representational harms* in machine learning from [Blodgett et al. 2020](https://aclanthology.org/2020.acl-main.485/).
 <blockquote>
@@ -131,10 +131,9 @@ Types of representational harms from [Blodgett et al. 2020](https://aclanthology
 2. Differences in system performance for different social groups, language that misrepresents the distribution of different social groups in the population, or language that is denigrating to particular social groups.
 </blockquote>
 
-Do you see evidence for representational harms learned by a bag-of-words model of this SNLI corpus? If so, which type do you see?
 
 ## Deliverables
-* Your implementations for the functions in the skeleton code `hw4_skeleton_{your pitt id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please specify that in the README.txt.
+* Your implementations for the functions in the skeleton code `hw4_skeleton_{your pitt id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please where it is in the README.txt.
 	* You are welcome to import any packages you need but please don't modify the function that has already been implemented. 
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt id}.pdf`. 
 * A README.txt file explaining
