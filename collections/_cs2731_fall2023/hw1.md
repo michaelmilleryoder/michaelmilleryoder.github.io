@@ -4,7 +4,7 @@ title: Homework 1 (CS 2731 Fall 2023)
 ---
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-09-14, 11:59pm.** *Instructions last updated 2023-09-05.*
+**Due 2023-09-14, 11:59pm.** *Instructions last updated 2023-09-08.*
 
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
@@ -119,7 +119,7 @@ In this part, you will measure associations between words in a commonly used NLP
 *For the report:*
 * With that PPMI-weighted term-context matrix, find the vectors for identity labels in the provided list. Look at the top associated context words for identity labels of your choice. Do you see any that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Discuss and provide selected results in the report.
 
-* Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.  Provide selected results and discuss findings in the report. Do you see evidence for representational harms learned by a bag-of-words model of this SNLI corpus? If so, which type do you see?
+* Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.  Provide selected results and discuss findings in the report. Do you see evidence for representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.
 
 * Here is a description of *representational harms* in machine learning from [Blodgett et al. 2020](https://aclanthology.org/2020.acl-main.485/).
 <blockquote>
