@@ -162,7 +162,7 @@ def compute_cosine_similarity(vector1, vector2):
     Returns:
       A scalar similarity value.
     """
-    return scipy.spatial.distance.cosine(vector1, vector2)
+    return 1 - scipy.spatial.distance.cosine(vector1, vector2)
 
 
 def rank_words(target_word_index, matrix):
