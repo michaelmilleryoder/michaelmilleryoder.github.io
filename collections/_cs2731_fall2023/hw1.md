@@ -4,7 +4,7 @@ title: Homework 1 (CS 2731 Fall 2023)
 ---
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-09-14, 11:59pm.** *Instructions last updated 2023-09-08.*
+**Due 2023-09-17, 11:59pm** (extended from 2023-09-14 initial deadline). *Instructions last updated 2023-09-12.*
 
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
@@ -71,28 +71,28 @@ Write code to compile a term-document matrix for Shakespeare&rsquo;s plays, foll
 
 The dimensions of your term-document matrix will be the number of documents $$D$$ (in this case, the number of Shakespeare’s plays that we give you in the corpus) by the number of unique word types $$\vert V \vert$$ in that collection. The columns represent the documents, and the rows represent the words, and each cell represents the frequency of that word in that document.
 
-#### Tasks for section 1.3
+#### Tasks for section 1.1
 * Fill out the function stub `create_term_document_matrix`.
 
 ### 1.2 Term-Context Matrix
 
-Instead of using a term-document matrix, a more common way of computing word similarity is by constructing a term-context matrix (also called a term-term or word-word matrix), where columns are labeled by words rather than documents. The dimensionality of this kind of a matrix is $$\vert V \vert$$ by $$\vert V \vert$$. Each cell represents how often the word in the row (the target word) co-occurs with the word in the column (the context) in a training corpus.
+Instead of using a term-document matrix, a more common way of computing word similarity is by constructing a term-context matrix (also called a term-term or word-word matrix), where columns are labeled by words rather than documents. The dimensionality of this kind of a matrix is $$\vert V \vert$$ by $$\vert V \vert$$. Each cell represents how often the word in the row (the target word) co-occurs with the word in the column (the context) in a training corpus. You can decide when it makes sense for a word to co-occur with itself in the term-context matrix. That is, will the cell for when the same word is target and context always stay 0?
 
 #### Tasks for section 1.2
 * Implement the `create_term_context_matrix` function. This function specifies the size word window around the target word that you will use to gather its contexts. For instance, if you set that variable to be 4, then you will use 4 words to the left of the target word, and 4 words to its right for the context. In this case, the cell represents the number of times in Shakespeare’s plays the column word occurs in +/-4 word window around the row word.
 
 ### 1.3 Evaluating vector spaces
 
-So far we have created 2 vector spaces for the words in Shakespeare, one with a dimension of $$D$$ and another of dimension $$\vert V \vert$$. Now we will try to evaluate how good our vector spaces are. We can do this with an intrinsic evaluation approach by seeing what words within the vocab are most similar to each other/are synonyms with each other and assessing if the output is reasonable. Implement the `rank_words` function which will take a target word index and return a list sorted from most similar to least similar using the cosine similarity metric. For the purposes of the assignment, let's just look at the top 10 words that are most similar to a target word between both the term-document matrix and the term-context matrix. Are those 10 words good synonyms? The skeleton code provides an example of using `rank_words` and looking at similar words using the word 'juliet'. 
-One example won't be enough so pick out at least 5 more words from the vocab as you answer these questions.
+So far we have created 2 vector spaces for the words in Shakespeare, one with a dimension of $$D$$ and another of dimension $$\vert V \vert$$. Now we will try to evaluate how good our vector spaces are. We can do this with an intrinsic evaluation approach by seeing what words within the vocab are most similar to each other/are synonyms with each other and assessing if the output is reasonable. Implement the `rank_words` function which will take a target word index and return a list sorted from most similar to least similar using the cosine similarity metric. For the purposes of the assignment, let's just look at the top 10 words that are most similar to a target word between both the term-document matrix and the term-context matrix (with a window size of your choice). Are those 10 words good synonyms? The skeleton code provides an example of using `rank_words` and looking at similar words using the word 'juliet'. 
+One example won't be enough so pick out at least 4 more words from the vocab as you answer these questions.
 
 #### Tasks for section 1.3
 * Implement `rank_words`
 
 *For the report:*
 * In our term-document matrix, the rows are word vectors of $$D$$ dimensions. Do you think that’s enough to represent the meaning of words? 
-* Which vector space (term-document or term-context) produce similar words that make more sense than the other and why do you think that is the case? 
-* Consider any decisions you made in the prior sections when implementing your functions, such as whether you allowed a word to co-occur with itself. How might any decisions you make impact our results now?
+* Which vector space (term-document or term-context) produce similar words that make more sense than others and why do you think that is the case? 
+* Consider any decisions you made in the prior sections when implementing your functions, such as whether you allowed a target word to co-occur with itself as a context word, and which window size you chose for the term-context matrix. How might any decisions you make impact our results now?
 
 ### 1.4 Weighting terms with tf-idf and PPMI
 Your term-context matrix contains the raw frequency of the co-occurrence of two words in each cell and your term-document matrix contains the raw frequency of words in each of the documents. Raw frequency turns out not to be the best way of measuring the association between words. There are several methods for weighting words so that we get better results. 

@@ -162,7 +162,14 @@ def compute_cosine_similarity(vector1, vector2):
     Returns:
       A scalar similarity value.
     """
-    return 1 - scipy.spatial.distance.cosine(vector1, vector2)
+    # Check for 0 vectors
+    if not np.any(vector1) or not np.any(vector2):
+        sim = 0
+
+    else:
+        sim = 1 - scipy.spatial.distance.cosine(vector1, vector2)
+
+    return sim
 
 
 def rank_words(target_word_index, matrix):
@@ -193,7 +200,7 @@ if __name__ == "__main__":
 
 
     print("Computing term context matrix...")
-    tc_matrix = create_term_context_matrix(tuples, vocab, context_window_size=2)
+    tc_matrix = create_term_context_matrix(tuples, vocab, context_window_size=4)
 
     print("Computing PPMI matrix...")
     ppmi_matrix = create_ppmi_matrix(tc_matrix)
