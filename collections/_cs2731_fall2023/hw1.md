@@ -4,7 +4,7 @@ title: Homework 1 (CS 2731 Fall 2023)
 ---
 
 # Homework 1: Vector space word similarity ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-09-17, 11:59pm** (extended from 2023-09-14 initial deadline). *Instructions last updated 2023-09-12.*
+**Due 2023-09-17, 11:59pm** (extended from 2023-09-14 initial deadline). *Instructions last updated 2023-09-13.*
 
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
@@ -119,7 +119,7 @@ In this part, you will measure associations between words in a commonly used NLP
 *For the report:*
 * With that PPMI-weighted term-context matrix, find the vectors for identity labels in the provided list. Look at the top associated context words for at least 4 identity labels of your choice. Do you see any that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Discuss and provide selected results in the report.
 
-* Qualitative analysis: Find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. Look at 1-2 examples for at least 4 different identity labels.  Provide selected results and discuss findings in the report. Do you see evidence for representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.
+* Qualitative analysis: For at least 4 different identity labels, dig into the contexts that leads to high PMI association with other words, especially for any words that show social bias if you found that. 1st-order similarity: find specific examples from the dataset where an identity label occurs with a top-associated term that shows some social bias or does not. This might not occur; if not, you can look at 2nd-order similarity in which the two words occur with similar context words. Sample the contexts in which the 2 words occur. Are there shared vocabulary items? This can also be examined by looking at the vectors for the identity term and the highly associated other term in the term-context matrix. Do these share high values in certain dimensions that correspond to certain context words? Provide selected results and discuss findings in the report. Do you see evidence for representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.
 
 * Here is a description of *representational harms* in machine learning from [Blodgett et al. 2020](https://aclanthology.org/2020.acl-main.485/).
 <blockquote>
