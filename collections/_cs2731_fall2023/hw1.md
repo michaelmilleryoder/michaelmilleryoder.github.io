@@ -133,7 +133,7 @@ Types of representational harms from [Blodgett et al. 2020](https://aclanthology
 
 
 ## Deliverables
-* Your implementations for the functions in the skeleton code `hw4_skeleton_{your pitt id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please where it is in the README.txt.
+* Your implementations for the functions in the skeleton code `hw1_skeleton_{your pitt id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please where it is in the README.txt.
 	* You are welcome to import any packages you need but please don't modify the function that has already been implemented. 
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt id}.pdf`. 
 * A README.txt file explaining
