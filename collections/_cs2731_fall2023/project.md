@@ -12,7 +12,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 
 ## Deliverables
 1. **[Project survey](https://forms.gle/VNLS8NaKPU762VSh8)**. *Due 08-31*. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
-2. **Project area and type of contribution**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in office hours.
+2. **[Project area and type of contribution](https://forms.gle/uxwAmLCL55SjLby5A)**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in office hours.
 3. **Project proposal and literature review**. *Due 10-12*. This proposal will be a report with answers to the following questions:
 	1. What type of contribution are you making?
 	2. What is the problem or task you are focusing on?
