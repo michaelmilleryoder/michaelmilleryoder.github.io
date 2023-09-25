@@ -16,12 +16,13 @@ x1 = 0, x2 = 4, y = 0
 
 ### Deliverables for Part 1
 * In a PDF report, show the values of the weights you calculated after training on each data point. 
-Briefly comment on if any weights shifted from positive to negative and why this was the case.
+Briefly comment on any shift in weights from positive to negative or negative to positive and why this was the case.
 
-## Part 2: Implement a program for text classification
+## Part 2: Implement a program for politeness classification
+In this portion, you will design and implement a program to classify if a Wikipedia talk page post is polite or not. You can use any packages you want for this (scikit-learn, spaCy, NLTK, etc), but these must be specified in the README.txt file, along with version numbers for Python and all packages. We will attempt to run your code on a held-out test set, so the exact environment must be specified. If you will be using a language other than Python, please let us know before submitting. 
 
 ## Dataset
-Here are the materials that you should download for this assignment:
+Here is the dataset that you should download for this assignment:
 
 * [Skeleton Python code](hw1/skeleton.py). You will need to have a Python environment with scipy and numpy packages. Some functions are stubs in the python code. You will need to fill them out.
 * [CSV of the complete works of Shakespeare](hw1/shakespeare_plays.csv)
@@ -30,6 +31,8 @@ Here are the materials that you should download for this assignment:
 * [SNLI corpus](hw1/snli.csv)
 	* This corpus is selections from SNLI, a corpus used for the NLP task of "natural language inference" (see [Bowman et al. 2015 dataset paper](https://aclanthology.org/D15-1075/)). Each line contains a sentence that is either a "premise" (an image caption) or a "hypothesis" produced by annotators to be in a certain logical relation with the associated premise (entailment, neutral, contradiction). You don't need to worry about these details, but the `sentenceID` column is a unique index for each sentence and `captionID` is an ID for all sentences associated with same caption/premise.
 * [List of identity labels](hw1/identity_labels.txt) from [Rudinger et al. 2017](https://aclanthology.org/W17-1609/)
+
+You will need to load this dataset into 
 
 
 ## Deliverables
