@@ -4,7 +4,7 @@ title: Homework 2 (CS 2731 Fall 2023)
 ---
 
 # Homework 2: Text classification ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-09-25.*
+**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-09-26.*
 
 ## Part 1: Learning weights in logistic regression
 You are training a classifier for reviews of a new product recently released by a company. You design a couple of features, $$x_1$$ and $$x_2$$. You will be using logistic regression.
@@ -25,7 +25,7 @@ In this portion, you will design and implement a program to classify if an onlin
 ## Dataset
 Here is the dataset that you should download for this assignment:
 
-* [`politeness_dataset.csv`](hw2/politeness_data.csv). This dataset has 3 fields:
+* [`politeness_data.csv`](hw2/politeness_data.csv). This dataset has 3 fields:
 	* `id`: a unique identifier for the post
 	* `text`: the text of the comment
 	* `polite`: a binary class label of whether or not the comment was annotated to be polite (1) or not (0)
@@ -57,7 +57,7 @@ In the report, please provide:
 	* Do an error analysis. Provide a confusion matrix and sample multiple examples from both false negatives and false positives. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)
 
 ## 2.2 Static word embeddings with feedforward neural network
-In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings as input. To represent the document, you can take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You will again use 5-fold cross validation on the dataset.
+In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings as input. To represent the document, you can take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You will again use 5-fold cross validation on the dataset. There is no need for this model to outperform the logistic regression model you made.
 
 ### Tasks for section 2.2
 * Implement a feedforward neural network with static word embeddings as input.
@@ -68,7 +68,8 @@ In the report, please provide:
 * Discuss the motivation for any choices you made as far as network architecture (number and dimensions of hidden layers) or hyperparameters (learning rate, number of epochs, etc). Note if you experimented with any of these options.
 
 ## Notes
-* **5 bonus points will be awarded for the best-performing logistic regression classifier and 5 bonus points for the best neural network classifier, as measured by accuracy.**
+* 5 bonus points will be awarded for the best-performing logistic regression classifier and 5 bonus points for the best neural network classifier, as measured by accuracy on our held-out test set.
+* Don't feel like you need to write things from scratch; use as many packages as you want. Google and Stack Overflow and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the `README.txt`. Just don't use complete, fully-formed implementations for this (including from generative AI tools). Use resources as an aid, not as a final product.
 * Optionally, you may incorporate any form of regularization that you like
 * This homework is designed to be able to be run on a laptop with CPUs, not GPUs. Let the instructor/TA know if you are having difficulty completing it with the resources you have.
 
@@ -84,7 +85,7 @@ In the report, please provide:
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}.pdf`. 
 * Your code in a file named `hw2_{your pitt email id}.py`. **This script should be able to take the name of a new dataset, which will be in the same format as the cross-validation set, as a single keyword argument, as in the command `python hw2_{your pitt email id}.py data.csv`.** We will attempt to run this code on a held-out test set.
 
-Please submit all of this material within a zipped directory on Canvas. We will grade your report and attempt to run your code.
+Please submit all of this material on Canvas. We will grade your report and attempt to run your code.
 
 ## Acknowledgments
 This assignment is inspired from a homework assignment by Prof. Diane Litman. Data is from [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025).
