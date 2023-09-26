@@ -50,7 +50,7 @@ Implement and try the following feature and model combinations:
 In the report, please provide:
 * A table of performance scores for models trained on each set of features. Include accuracy as well as precision, recall, and f1-score for the positive (polite) class.
 * For each feature or change in input text processing:
-	* Describe your motivation for including the feature (sampling and examining the test data is one good idea for this)
+	* Describe your motivation for including the feature
 	* Discussion of results: Did it improve performance or not? (Either result is fine. It is not necessary to beat logistic regression with unigram features.)
 * For a feature-based model of your choice:
 	* List the top 2 most informative features that are mostly strongly positively and negatively associated with politeness. Discuss if you find these surprising and any other comments you might have. You may adapt code provided by the instructor in the Naive Bayes example (notebook [here](https://colab.research.google.com/drive/187yqGR_M_OVYrV28_nzjPY50mm6x-fxJ?usp=sharing)), use another source online, or write your own.
