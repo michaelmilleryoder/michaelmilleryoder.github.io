@@ -8,15 +8,15 @@ title: Homework 2 (CS 2731 Fall 2023)
 
 ## Part 1: Learning weights in logistic regression
 You are training a classifier for reviews of a new product recently released by a company. You design a couple of features, $$x_1$$ and $$x_2$$. You will be using logistic regression.
-With an initialization of the weights w1, w2 and b (the bias) all set = 0 and a learning rate $$\eta=0.2$$, calculate the weights after processing each of the following 3 inputs:
-x1 = 2, x2 = 1, y = 1
-x1= 1, x2 = 3, y = 0
-x1 = 0, x2 = 4, y = 0
+With an initialization of the weights $$w_1$$, $$w_2$$ and $$b$$ (the bias) all set = 0 and a learning rate $$\eta=0.2$$, calculate the weights after processing each of the following 3 inputs:
+1. $$x_1 = 2, x_2 = 1, y = 1$$
+2. $$x_1 = 1, x_2 = 3, y = 0$$
+3. $$x_1 = 0, x_2 = 4, y = 0$$
 
 During calculations, keep at least 3 significant digits for values. Points will not be taken off for slight differences due to rounding.
 
 ### Deliverables for Part 1
-* In a PDF report, show the values of the weights you calculated after training on each data point. 
+* In the report, show your work in calculating the values of the weights after training on each data point. 
 Briefly comment on any shift in weights from positive to negative or negative to positive and why this was the case.
 
 ## Part 2: Implement a politeness classifier
@@ -25,7 +25,7 @@ In this portion, you will design and implement a program to classify if an onlin
 ## Dataset
 Here is the dataset that you should download for this assignment:
 
-* [`politeness_dataset.csv`](hw2/politeness_dataset.csv). This dataset has 3 fields:
+* [`politeness_dataset.csv`](hw2/politeness_data.csv). This dataset has 3 fields:
 	* `id`: a unique identifier for the post
 	* `text`: the text of the comment
 	* `polite`: a binary class label of whether or not the comment was annotated to be polite (1) or not (0)
