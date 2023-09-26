@@ -32,14 +32,14 @@ Here is the dataset that you should download for this assignment:
 This dataset consists of requests among Wikipedia editors posted on user talk pages, as well as posts on the coding help forum Stack Exchange (see the Stanford Politeness Corpus, [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025)). 
 
 ## 2.1 Feature-based logistic regression models
-In this section, you will build a logistic regression model based on features, some that are specified and some that you design. You can do whatever preprocessing you see fit. You will report performance using 5-fold cross-validation on the dataset, which you will set up. 
+In this section, you will build a logistic regression model based on bag-of-word features and/or features of your own design. You can do whatever preprocessing you see fit. You will report performance using 5-fold cross-validation on the dataset, which you will set up. 
 
 ### Tasks for section 2.1
 Implement and try the following feature and model combinations:
 * *Logistic regression with bag-of-words (unigram) features*. Build a logistic regression classifier that uses bag-of-words (unigram) features.
-* *Logistic regression with your own features/change in preprocessing*. Design and test at least two of your own custom features or change the preprocessing in at least one way. Note that these features can be used in conjunction with bag-of-words features or by themselves. Good features would be more prevalent or less prevalent with one class than the other. Possible features/changes to add and test include:
+* *Logistic regression with your own features/change in preprocessing*. Design and test at least two of your own custom features or change the preprocessing in at least one way. Note that these features can be used in conjunction with bag-of-words features or by themselves. Possible features/changes to add and test include:
 	* Tf-idf transformed bag-of-words features
-	* Changing count ngram features to binary 0 or 1 for the presence of unigrams
+	* Changing count bag-of-words features to binary 0 or 1 for the presence of unigrams
 	* N-gram features (sequences of words) beyond the single words used for the bag-of-words features
 	* Different preprocessing (stemming, different tokenizations, stopword removal)
 	* Reducing noisy features with feature selection
@@ -47,9 +47,8 @@ Implement and try the following feature and model combinations:
 	* Static word embeddings of your choice
 	* Any other custom-designed feature (such as length of input, number of capitalized words, etc)
 
-
 In the report, please provide:
-* A table of performance scores for models trained on each set of features. Include precision, recall, and f1-score for the positive (polite) class, as well as accuracy.
+* A table of performance scores for models trained on each set of features. Include accuracy as well as precision, recall, and f1-score for the positive (polite) class.
 * For each feature or change in input text processing:
 	* Describe your motivation for including the feature (sampling and examining the test data is one good idea for this)
 	* Discussion of results: Did it improve performance or not? (Either result is fine. It is not necessary to beat logistic regression with unigram features.)
@@ -58,13 +57,13 @@ In the report, please provide:
 	* Do an error analysis. Provide a confusion matrix and sample multiple examples from both false negatives and false positives. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)
 
 ## 2.2 Static word embeddings with feedforward neural network
-In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings as input. You can freeze the word embedding layer or allow it to be trained. You can choose which activation function to use and other hyperparameters.You will again use 5-fold cross validation on the dataset.
+In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings as input. To represent the document, you can take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You will again use 5-fold cross validation on the dataset.
 
 ### Tasks for section 2.2
 * Implement a feedforward neural network with static word embeddings as input.
 
 In the report, please provide:
-* Performance scores for this model. Include precision and recall for the positive (polite) class, as well as accuracy. This can be an additional row in the table with other performance scores.
+* Performance scores for this model. Include accuracy as well as precision, recall, and f1-score for the positive (polite) class. This can be an additional row in the table with other performance scores.
 * Discuss the motivation for any choices you made as far as word embedding types, pretraining dataset, and/or how you represented the document, or if you experimented with multiple of these options.
 * Discuss the motivation for any choices you made as far as network architecture (number and dimensions of hidden layers) or hyperparameters (learning rate, number of epochs, etc). Note if you experimented with any of these options.
 
