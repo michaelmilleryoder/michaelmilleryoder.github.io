@@ -2,7 +2,7 @@
 layout: class
 title: Final Project (CS 2731 Fall 2023)
 ---
-*Last revised 2023-09-23.*
+*Last revised 2023-09-28.*
 
 # Final Project ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
 A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize current approaches and challenges in a subfield of NLP and implement some sort of contribution (however small) to this NLP area of research or practice.
@@ -21,7 +21,9 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	5. What data are you using (or contributing)?
 	6. What algorithm or approach are you taking to address the task?
 	7. How are you evaluating your contribution? What performance metrics are you going to use?
-	8. What kinds of ethical issues may be raised by your model or data?<br /><br />It is recommended to start on the literature review early on, since existing work will inform your specific direction (somebody may have already tried your idea!). The instructor and TA will provide feedback on this proposal and a meeting in office hours if needed. There is no required length or format for this report, but you could use the ACL format that the final report will be formatted in. Proposals will be submitted through Canvas (one per group is fine).<br />
+	8. What kinds of ethical issues may be raised by your model or data?
+	9. What are the proposed steps needed for completion of the project?
+	10. What are roles and tasks of each person in the group? Though group members will contribute in various capacities, it is best if each person is responsible for at least one aspect of the project.<br /><br />It is recommended to start on the literature review early on, since existing work will inform your specific direction (somebody may have already tried your idea!). The instructor and TA will provide feedback on this proposal and a meeting in office hours if needed. There is no required length or format for this report, but you could use the ACL format that the final report will be formatted in. Proposals will be submitted through Canvas (one per group is fine).<br />
 4. **Project proposal presentation**. *In class 10-18*. Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. This presentation should also mention any changes planned based on proposal feedback from the instructor and TA.
 5. **Basic working system**. *Due 11-16*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. This report should be in the ACL format that the final report will be in.
 6. **Final presentation**. *In class week of 12-11*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students.
