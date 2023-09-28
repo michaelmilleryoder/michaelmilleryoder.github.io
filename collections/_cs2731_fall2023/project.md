@@ -12,11 +12,11 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 
 ## Deliverables
 1. **[Project survey](https://forms.gle/VNLS8NaKPU762VSh8)**. *Due 08-31*. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
-2. **[Project area and type of contribution](https://forms.gle/uxwAmLCL55SjLby5A)**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in office hours.
+2. **[Project area and type of contribution](https://forms.gle/uxwAmLCL55SjLby5A)**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in meetings (see Canvas for available time slots).
 3. **Project proposal and literature review**. *Due 10-12*. This proposal will be a report with answers to the following questions:
 	1. What type of contribution are you making?
 	2. What is the problem or task you are focusing on?
-	3. What is the nature of your contribution?
+	3. What is the nature of your contribution? That is, what is the expected output of your project? This could be a new approach and its evaluation, a new dataset, or new analysis.
 	4. How does your contribution build on or extend prior work? This literature review will be of at least 4 papers relevant to your project area. It will group and summarize relevant papers into types of tasks, datasets, and/or approaches. Good places to look for NLP papers include the [ACL Anthology](https://aclanthology.org/), [Semantic Scholar](https://www.semanticscholar.org/), and [Google Scholar](https://scholar.google.com/?inst=3203679203499159833).
 	5. What data are you using (or contributing)?
 	6. What algorithm or approach are you taking to address the task?
