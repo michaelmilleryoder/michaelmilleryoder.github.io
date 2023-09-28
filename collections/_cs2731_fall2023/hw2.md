@@ -83,7 +83,7 @@ In the report, please provide:
 	* any generative AI tool used, and how it was used
 	* any unresolved issues or problems
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}.pdf`. 
-* Your code in a file named `hw2_{your pitt email id}.py`. **This script should be able to take the name of a new dataset, which will be in the same format as the cross-validation set, as a single keyword argument, as in the command `python hw2_{your pitt email id}.py data.csv`.** We will attempt to run this code on a held-out test set.
+* Your code in a file named `hw2_{your pitt email id}_test.py`. **This script should be able to take the name of a new dataset, which will be in the same format as the training set, as a single keyword argument, as in the command `python hw2_{your pitt email id}_test.py data.csv`.** This script can either load your trained model (which also needs to be submitted) or train in a reasonable amount of time with the `politeness_data.csv` assumed to be in the current working directory. We will attempt to run this code on a held-out test set.
 * Any additional files needed to run the code. If you draw your pretrained static embeddings from a file that you downloaded, upload it to Canvas if it's <400MB. Otherwise provide a direct URL link to the embeddings and the name and version.
 
 Please submit all of this material on Canvas. We will grade your report and attempt to run your code.
