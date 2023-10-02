@@ -11,7 +11,9 @@ title:
 I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, where I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
 {: .bio}
-My research uses methods from computational social science and computational linguistics to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
+My research uses methods from natural language processing and computational social science to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
+
+I'm also adjunct faculty in the <a href="https://www.cs.pitt.edu/">Department of Computer Science</a> at the University of Pittsburgh, where I teach <a href="https://michaelmilleryoder.github.io/cs2731_fall2023/">Introduction to Natural Language Processing</a>.
 
 ## Press and writing
 * [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
@@ -23,17 +25,22 @@ Atiya Irvin-Mitchell, Technical.ly, 2023.
 {: #publications}
 
 <div class="publications">
+**Pandemic Personas: Analyzing Identity Signals in COVID-19 Discourse on Twitter**  
+Scott Leo Renshaw, Samantha C. Phillips, Michael Miller Yoder, Kathleen M. Carley  
+*Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS)*. 2023.  
+<span class="badge conference">conference paper</span> [article page](https://link.springer.com/chapter/10.1007/978-3-031-43129-6_31)  
+<hr>
 
 **A Weakly Supervised Classifier and Dataset of White Supremacist Language**  
 Michael Miller Yoder, Ahmad Diab, David West Brown, Kathleen M. Carley  
 *Proceedings of the Association for Computational Linguistics (ACL)*. 2023.  
-<span class="badge conference">conference paper</span> [preprint](https://arxiv.org/pdf/2306.15732.pdf) &middot; [data](https://osf.io/274z3/) &middot; [code](https://github.com/michaelmilleryoder/white_supremacist_lang/)  
+<span class="badge conference">conference paper</span> [pdf](https://aclanthology.org/2023.acl-short.17.pdf) &middot; [data](https://osf.io/274z3/) &middot; [code](https://github.com/michaelmilleryoder/white_supremacist_lang/)  
 <hr>
 
 **Identity Construction in a Misogynist Incels Forum**  
 Michael Miller Yoder, Chloe Perry, David West Brown, Kathleen M. Carley, Meredith Pruden  
 *Proceedings of the Workshop on Online Abuse and Harms (WOAH)*. 2023.  
-<span class="badge workshop-paper">workshop paper</span> [preprint](https://arxiv.org/pdf/2306.15745.pdf)  
+<span class="badge workshop-paper">workshop paper</span> [pdf](https://aclanthology.org/2023.woah-1.1.pdf)  
 <hr>
 
 **Online to Offline Crossover of White Supremacist Propaganda**  
