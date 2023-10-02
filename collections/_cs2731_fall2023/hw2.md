@@ -4,7 +4,7 @@ title: Homework 2 (CS 2731 Fall 2023)
 ---
 
 # Homework 2: Text classification ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-09-26.*
+**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-10-02.*
 
 ## Part 1: Learning weights in logistic regression
 You are training a classifier for reviews of a new product recently released by a company. You design a couple of features, $$x_1$$ and $$x_2$$. You will be using logistic regression.
