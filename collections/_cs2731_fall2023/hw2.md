@@ -32,7 +32,7 @@ Here is the dataset that you should download for this assignment:
 This dataset consists of requests among Wikipedia editors posted on user talk pages, as well as posts on the coding help forum Stack Exchange (see the Stanford Politeness Corpus, [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025)). 
 
 ## 2.1 Feature-based logistic regression models
-In this section, you will build a logistic regression model based on bag-of-word features and/or features of your own design. You can do whatever preprocessing you see fit. You will report performance using 5-fold cross-validation on the dataset, which you will set up. 
+In this section, you will build a logistic regression model based on bag-of-word features and/or features of your own design. You can do whatever preprocessing you see fit. You will report performance using 5-fold cross-validation on the dataset, which you will set up. Make sure to just extract features (bag-of-words, etc) from the training set and not the test folds within cross-validation.
 
 ### Tasks for section 2.1
 Implement and try the following feature and model combinations:
