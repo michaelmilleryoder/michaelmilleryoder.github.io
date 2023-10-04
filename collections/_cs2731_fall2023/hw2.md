@@ -4,7 +4,7 @@ title: Homework 2 (CS 2731 Fall 2023)
 ---
 
 # Homework 2: Text classification ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-10-02.*
+**Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-10-03.*
 
 ## Part 1: Learning weights in logistic regression
 You are training a classifier for reviews of a new product recently released by a company. You design a couple of features, $$x_1$$ and $$x_2$$. You will be using logistic regression.
@@ -57,7 +57,7 @@ In the report, please provide:
 	* Do an error analysis. Provide a confusion matrix and sample multiple examples from both false negatives and false positives. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)
 
 ## 2.2 Static word embeddings with feedforward neural network
-In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings as input. To represent the document, you can take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You will again use 5-fold cross validation on the dataset. There is no need for this model to outperform the logistic regression model you made.
+In this section, you will build and evaluate a feedforward neural network that uses pre-trained static word embeddings (word2vec, GloVe, FastText, etc) as input. To represent the document, you can take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You will again use 5-fold cross validation on the dataset. There is no need for this model to outperform the logistic regression model you made.
 
 ### Tasks for section 2.2
 * Implement a feedforward neural network with static word embeddings as input.
@@ -83,8 +83,8 @@ In the report, please provide:
 	* any generative AI tool used, and how it was used
 	* any unresolved issues or problems
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}.pdf`. 
-* Your code in a file named `hw2_{your pitt email id}_test.py`. **This script should be able to take the name of a new dataset, which will be in the same format as the training set, as a single keyword argument, as in the command `python hw2_{your pitt email id}_test.py data.csv`.** This script can either load your trained model (which also needs to be submitted) or train in a reasonable amount of time with the `politeness_data.csv` assumed to be in the current working directory. We will attempt to run this code on a held-out test set.
-* Any additional files needed to run the code. If you draw your pretrained static embeddings from a file that you downloaded, upload it to Canvas if it's <400MB. Otherwise provide a direct URL link to the embeddings and the name and version.
+* Your code in a file named `hw2_{your pitt email id}_test.py`. **This script should be able to take the name of a new dataset, which will be in the same format as the training set, as a single keyword argument, as in the command `python hw2_{your pitt email id}_test.py data.csv`.** The script should run both your logistic regression classifier and the neural classifier and print the accuracy for both on the dataset that will be passed as a keyword argument. It can either load your trained model (which also needs to be submitted) or train in a reasonable amount of time with the `politeness_data.csv` assumed to be in the current working directory. We will attempt to run this code on a held-out test set.
+* Any additional files needed to run the code. If you draw your pretrained static embeddings from a file that you downloaded, upload it to Canvas if it's <400MB. Otherwise provide a direct URL link to the embeddings and the name and version. If the embeddings are part of a package, let us know what package to install in the README.txt file (as you should for any packages in the environment).
 
 Please submit all of this material on Canvas. We will grade your report and attempt to run your code.
 
