@@ -24,7 +24,13 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	8. What kinds of ethical issues may be raised by your model or data?
 	9. What are the proposed steps needed for completion of the project?
 	10. What are roles and tasks of each person in the group? Though group members will contribute in various capacities, it is best if each person is responsible for at least one aspect of the project.<br /><br />It is recommended to start on the literature review early on, since existing work will inform your specific direction (somebody may have already tried your idea!). The instructor and TA will provide feedback on this proposal and a meeting in office hours if needed. There is no required length or format for this report, but you could use the ACL format that the final report will be formatted in. Proposals will be submitted through Canvas (one per group is fine).<br />
-4. **Project proposal presentation**. *In class 10-18*. Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. This presentation should also mention any changes planned based on proposal feedback from the instructor and TA.
+4. **Project proposal presentation**. *In class 10-18*. Groups will make a brief presentation to the class outlining their proposed project, with Q&A and opportunities for feedback from other students. Please plan for 4-minute presentations with 2 minutes for questions for each group. Cover at least these key points:
+	1. Project motivation (what is the value of this work?)
+	1. Briefly, what 1-2 other related papers have done
+	1. What data you are planning to use
+	1. What approach/methods will you be taking
+	1. Evaluation of your approach (or dataset, if it’s a dataset contribution)
+	<br/><br/>Have each group member speak in the presentation. Please add your slides to a Google Slide presentation which you can find in a Canvas announcement. These presentations are not graded.
 5. **Basic working system**. *Due 11-16*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. This report should be in the ACL format that the final report will be in.
 6. **Final presentation**. *In class week of 12-11*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students.
 7. **Final report and code**. *Due 12-14*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/project/5f64f1fb97c4c50001b60549)). Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference, but other types of projects can also achieve an A.
