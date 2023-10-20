@@ -14,7 +14,7 @@ In this assignment, you will build unigram, bigram, and trigram character langua
 * Use a language model to probabilistically generate texts.
 
 # Data
-The data for this project is available here:[`hw3_data.zip`](hw3/hw3_data.zip)`. It consists of:
+The data for this project is available here: [`hw3_data.zip`](hw3/hw3_data.zip). It consists of:
 
 * training.en - English training data
 * training.es - Spanish training data
