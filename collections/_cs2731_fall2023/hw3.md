@@ -4,7 +4,7 @@ title: Homework 3 (CS 2731 Fall 2023)
 ---
 
 # Homework 3: Language modeling ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-11-02, 11:59pm**. *Instructions last updated 2023-10-20.*
+**Due 2023-11-02, 11:59pm**. *Instructions last updated 2023-10-23.*
 
 In this assignment, you will build unigram, bigram, and trigram character language models (both unsmoothed and smoothed versions) for three languages, score a test document with each, and determine the language it is written in based on perplexity. You will also use your English language models to generate texts. You will critically examine all results. The learning goals of this assignment are to:
 
