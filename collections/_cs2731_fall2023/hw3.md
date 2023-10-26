@@ -44,6 +44,39 @@ In your report, include:
 
 # 2. Use character n-gram language models
 * Language identification: For all smoothed language models, read in the test document, apply the language model to all sentences in it, and output perplexity. Based on the results, identify the language of the test document.
+You can use fill out and use the following Python function for perplexity (or something else if you want):
+
+```
+import math
+
+def perplexity(text, model, n):
+""" Args:
+            text: a string of characters
+            model: a df of the probabilities with rows as prefixes, columns as suffixes
+            n: n-gram order of the model
+
+        Acknowledgment: 
+	  https://towardsdatascience.com/perplexity-intuition-and-derivation-105dd481c8f3 
+	  https://courses.cs.washington.edu/courses/csep517/18au/
+	  ChatGPT with GPT-3.5
+    """
+
+    # FILL IN: Remove any unseen characters from the text that have no unigram probability in the language
+
+    N = len(text)
+    char_probs = []
+    for i in range(n-1, N):
+	prefix = text[i-n+1:i]
+	suffix = text[i]
+	# FILL IN: look up the probability in the model of the suffix given the prefix
+	prob = 
+	char_probs.append(math.log2(prob))
+    neg_log_lik = -1 * sum(char_probs) # negative log-likelihood of the text
+    ppl = 2 ** (neg_log_lik/(N - n + 1)) # 2 to the power of the negative log likelihood of the words divided by #ngrams
+    return ppl
+
+```
+
 * Text generation: For only the bigram and trigram language models trained on English, extend your programs so that you can generate sentences. That is, given any English letter(s) as input and based on the n-gram model you should continue the sentence with the most likely characters. More specifically, given a letter to begin a sentence with, you should choose as the next character that character that yields the highest n-gram count when composed with previous characters into a n-gram. Thus, you will use the previous character for bigrams and previous two characters for trigrams. Your program should continue generating new characters until you have generated a 100 character sentence or you have reached a dead end (all n-gram counts are zero).  
 
 ## Deliverables for part 2
