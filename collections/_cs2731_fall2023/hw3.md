@@ -74,7 +74,6 @@ def perplexity(text, model, n):
     neg_log_lik = -1 * sum(char_probs) # negative log-likelihood of the text
     ppl = 2 ** (neg_log_lik/(N - n + 1)) # 2 to the power of the negative log likelihood of the words divided by #ngrams
     return ppl
-
 ```
 
 * Text generation: For only the bigram and trigram language models trained on English, extend your programs so that you can generate sentences. That is, given any English letter(s) as input and based on the n-gram model you should continue the sentence with the most likely characters. More specifically, given a letter to begin a sentence with, you should choose as the next character that character that yields the highest n-gram count when composed with previous characters into a n-gram. Thus, you will use the previous character for bigrams and previous two characters for trigrams. Your program should continue generating new characters until you have generated a 100 character sentence or you have reached a dead end (all n-gram counts are zero).  
