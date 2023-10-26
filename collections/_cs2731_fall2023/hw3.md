@@ -40,7 +40,7 @@ For this assignment you must implement the model generation from scratch, but yo
 In your report, include:
 1. a description of how you wrote your program, including all assumptions and design decisions
 2. an excerpt of both the unsmoothed and interpolated (and optional add-one) trigram language models for English, displaying all n-grams and their probability with the two-character history *t h*
-3. documentation that probability distributions for all language models are valid (sum to 1). Specifically, where $$w$$ is a word (random variable) and $$c$$ is the prior context of that word, this means the probability distributions $$P(w|c) = 1$$ or very close to 1 (>0.98 and <1.02 is fine) for all possible prior contexts.
+3. documentation that probability distributions for all language models are valid (sum to 1). Specifically, where $$w$$ is a word (random variable) and $$c$$ is the prior context of that word, this means the probability distributions $$P(w \vert c) = 1$$ or very close to 1 (>0.98 and <1.02 is fine) for all possible prior contexts.
 
 # 2. Use character n-gram language models
 * Language identification: For all smoothed language models, read in the test document, apply the language model to all sentences in it, and output perplexity. Based on the results, identify the language of the test document.
