@@ -24,15 +24,15 @@ postags = {NOUN, AUX, VERB}, words = {'Patrick', 'Cherry', 'can', 'will', 'see',
 
 Initial probabilities:
 
- | $$\pi$$
+&nbsp; | $$\pi$$
 --|--------
 NOUN|0.7
 AUX|0.1
 VERB|0.2
 
-Transition probabilities (format P(column\_tag|row\_tag), e.g. $$P(AUX|NOUN) = 0.3$$):
+Transition probabilities (format P(column\_tag|row\_tag), e.g. $$P(AUX \vert NOUN) = 0.3$$):
 
- | NOUN | AUX | VERB
+ &nbsp;| NOUN | AUX | VERB
 --|---|---|--
 NOUN|0.2|0.3|0.5
 AUX|0.4|0.1|0.5
@@ -40,7 +40,7 @@ VERB|0.8|0.1|0.1
 
 Emission probabilities:
 
- | Patrick | Cherry | can | will | see | spot
+ &nbsp;| Patrick | Cherry | can | will | see | spot
 --|---|---|--|--|--|--
 NOUN|0.3|0.2|0.1|0.1|0.1|0.2
 AUX|0|0|0.4|0.6|0|0
