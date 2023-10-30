@@ -31,7 +31,7 @@ AUX|0.1
 VERB|0.2
 
 Transition probabilities: 
-The format is P(column\_tag \vert row\_tag), e.g. $$P(AUX \vert NOUN) = 0.3$$
+The format is P(column\_tag \| row\_tag), e.g. $$P(AUX \vert NOUN) = 0.3$$
 
  &nbsp;| NOUN | AUX | VERB
 --|---|---|--
