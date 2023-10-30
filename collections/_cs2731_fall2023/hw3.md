@@ -25,7 +25,7 @@ The data for this project is available here: [`hw3_data.zip`](hw3/hw3_data.zip).
 # 1. Train character n-gram language models
 To complete the assignment, you will need to write a program (from scratch) that:
 
-* builds the models: for each language, reads in training data, collects counts for all **character** 1, 2, and 3-grams, estimates probabilities, and writes out the unigram, bigram, and trigram models (ngram probabilities) into files
+* builds the models: reads in training data, collects counts for all **character** 1, 2, and 3-grams, estimates probabilities, and writes out the unigram, bigram, and trigram models (ngram probabilities) into files. Build separate models for each language.
 * adjusts the counts: rebuilds the bigram and trigram language models using linear interpolation with lambdas equally weighted
 
 You may make any additional assumptions and design decisions, but state them in your report (see below). For example, some design choices that could be made are how you want to handle uppercase and lowercase letters or how you want to handle digits. The choice made is up to you, we only require that you detail these decisions in your report and consider any implications of them in your results. There is no wrong choice here, and these decisions are typically made by NLP researchers when pre-processing data.
