@@ -47,18 +47,22 @@ NOUN|0.3|0.2|0.1|0.1|0.1|0.2
 AUX|0|0|0.4|0.6|0|0
 VERB|0|0|0.1|0.2|0.5|0.2
 
-## Deliverables for part 1
-Using the Viterbi algorithm and the given HMM, find the most likely tag sequence for the following 2 sentences. Show your work, including filling in Viterbi tables or lattices. Report the most likely tag sequences for these sentences in your report.
+Using the Viterbi algorithm and the given HMM, find the most likely tag sequence for the following 2 sentences.
 1. “Patrick can see Cherry”
 1. “will Cherry spot Patrick”
 
-To get you started on the Viterbi tables, here are the first 2 columns for the first phrase. You'll also want to include the backtraces.
+To get you started on the Viterbi tables, here are the first 2 columns for the first sentence. You'll also want to include the backtraces.
 
 POS state | will | Cherry | spot| Patrick
 ----|---|----|---|---
 NOUN|0.21|0.0042| |
 AUX|0|0.0252| |
 VERB|0|0.015| |
+
+
+## Deliverables for part 1
+In your report, show your work for calculating the Viterbi tables or lattices for both example sentences.
+Report the most likely tag sequences for these 2 sentences.
 
 
 # 2. Fine-tune a BERT-based NER model
@@ -88,4 +92,4 @@ This homework assignment is worth 45 points.
 
 
 ## Acknowledgments
-This assignment is based on homework assignments by Prof. Hyeju Jang and Prof. Diane Litman.
+Part 1 of this assignment is based on homework assignments by Prof. Hyeju Jang and Prof. Diane Litman.
