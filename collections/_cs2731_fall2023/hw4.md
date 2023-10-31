@@ -6,7 +6,7 @@ title: Homework 4 (CS 2731 Fall 2023)
 # Homework 4: Sequence labeling ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
 **Due 2023-11-09, 11:59pm**. *Instructions last updated 2023-10-30.*
 
-In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune a BERT-based model for named entity recognition (NER).
+In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune BERT-based models for named entity recognition (NER).
 
 <!--
 The learning goals of this assignment are to:
@@ -65,7 +65,7 @@ In your report, show your work for calculating the Viterbi tables or lattices fo
 Report the most likely tag sequences for these 2 sentences.
 
 
-# 2. Fine-tune a BERT-based NER model
+# 2. Fine-tune BERT-based NER models
 In this section, you will fine-tune multiple pretrained BERT-based models on Spanish NER data. Specifically, you will fine-tune at least one model pretrained on masked language modeling (MLM) on Spanish data, and at least one model pretrained on NER in a language other than Spanish.
 
 Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1rCwqpIMOjqiLPGoS5U0kHmSXfi0d3Xmb?usp=sharing) and fill in the places that are specified.
