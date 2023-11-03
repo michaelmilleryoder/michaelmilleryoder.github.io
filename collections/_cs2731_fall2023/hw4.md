@@ -53,11 +53,11 @@ Using the Viterbi algorithm and the given HMM, find the most likely tag sequence
 
 To get you started on the Viterbi tables, here are the first 2 columns for the first sentence. You'll also want to include the backtraces.
 
-POS state | will | Cherry | spot| Patrick
+POS state | Patrick | can | see| Cherry
 ----|---|----|---|---
 NOUN|0.21|0.0042| |
 AUX|0|0.0252| |
-VERB|0|0.015| |
+VERB|0|0.0105| |
 
 
 ## Deliverables for part 1
