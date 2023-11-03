@@ -4,7 +4,7 @@ title: Homework 4 (CS 2731 Fall 2023)
 ---
 
 # Homework 4: Sequence labeling ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
-**Due 2023-11-09, 11:59pm**. *Instructions last updated 2023-10-30.*
+**Due 2023-11-09, 11:59pm**. *Instructions last updated 2023-11-03.*
 
 In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune BERT-based models for named entity recognition (NER).
 
