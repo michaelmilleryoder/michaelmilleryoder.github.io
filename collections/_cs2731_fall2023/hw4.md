@@ -68,7 +68,7 @@ Report the most likely tag sequences for these 2 sentences.
 # 2. Fine-tune BERT-based NER models
 In this section, you will fine-tune multiple pretrained BERT-based models on Spanish NER data. Specifically, you will fine-tune at least one model pretrained on masked language modeling (MLM) on Spanish data, and at least one model pretrained on NER in a language other than Spanish.
 
-Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1rCwqpIMOjqiLPGoS5U0kHmSXfi0d3Xmb?usp=sharing) and fill in the places that are specified.
+Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1rCwqpIMOjqiLPGoS5U0kHmSXfi0d3Xmb?usp=sharing), run the cells, and fill in the places that are specified.
 
 ## Deliverables for part 2
 In your report, include:
