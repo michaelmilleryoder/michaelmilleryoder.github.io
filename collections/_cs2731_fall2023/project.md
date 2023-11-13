@@ -31,7 +31,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	1. What approach/methods will you be taking
 	1. Evaluation of your approach (or dataset, if it’s a dataset contribution)
 	<br/><br/>Have each group member speak in the presentation. Please add your slides to a Google Slide presentation which you can find in a Canvas announcement. These presentations are not graded.
-5. **Basic working system**. *Due 11-16*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. This report should be in the ACL format that the final report will be in.
+5. **Basic working system**. *Due 11-16*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. Also list any questions you have or resources you will need to successfully complete the project by the 12-14 deadline. This report should be in the ACL format that the final report will be in.
 6. **Final presentation**. *In class week of 12-11*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students.
 7. **Final report and code**. *Due 12-14*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/project/5f64f1fb97c4c50001b60549)). Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference, but other types of projects can also achieve an A.
 
