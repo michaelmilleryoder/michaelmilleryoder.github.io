@@ -83,7 +83,9 @@ Please submit the following items on Canvas:
 	* any generative AI tool used, and how it was used
 	* any unresolved issues or problems
 
+## Grading
 This homework assignment is worth 45 points.
+See rubric on Canvas.
 
 
 ## Acknowledgments

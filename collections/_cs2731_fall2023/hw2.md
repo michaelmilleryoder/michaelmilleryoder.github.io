@@ -96,5 +96,8 @@ In the report, please provide:
 
 Please submit all of this material on Canvas. We will grade your report and attempt to run your code.
 
+## Grading
+See rubric on Canvas.
+
 ## Acknowledgments
 This assignment is inspired from a homework assignment by Prof. Diane Litman. Data is from [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025).
