@@ -8,15 +8,10 @@ title: Homework 4 (CS 2731 Fall 2023)
 
 In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune BERT-based models for named entity recognition (NER).
 
-<!--
 The learning goals of this assignment are to:
-
-* Understand how to compute language model probabilities using maximum likelihood estimation.
-* Implement basic smoothing and interpolation.
-* Use the perplexity of a language model to perform language identification.
-* Use a language model to probabilistically generate texts.
--->
-
+* Demonstrate how the Viterbi algorithm takes into account emission and transmission probabilities to find the highest-probability sequence of hidden states in an HMM
+* Fine-tune a transformer-based NER system on new data
+* Use pretrained models from HuggingFace
 
 # 1. POS tagging with an HMM
 Consider a Hidden Markov Model with the following parameters:

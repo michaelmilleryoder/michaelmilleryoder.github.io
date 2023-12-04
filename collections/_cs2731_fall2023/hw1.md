@@ -8,6 +8,13 @@ title: Homework 1 (CS 2731 Fall 2023)
 
 In this assignment, you'll build representations for documents and words based on the bag-of-words model. You'll implement 2 popular weighting schemes for these vectors: tf-idf and PPMI, both discussed in Chapter 6 of the [textbook](https://web.stanford.edu/~jurafsky/slp3/). Then you'll compare these weighting schemes on learning word similarity and apply one of them, PPMI, to examine social bias in an NLP corpus.
 
+## Learning objectives
+After completing this assignments, students will be able to:
+* Load in text data and manipulate it in Python
+* Demonstrate that a model’s notions of word similarity comes from the contexts of neighboring words in corpora
+* Implement vectors for words, the predominant representation of semantics in NLP
+* Investigate how NLP corpora can encode potentially harmful social biases through word associations
+
 ## Datasets and skeleton code
 Here are the materials that you should download for this assignment:
 
@@ -145,6 +152,9 @@ Types of representational harms from [Blodgett et al. 2020](https://aclanthology
 	* any unresolved issues or problems
 
 Please submit all of this material on Canvas. We will grade your report and attempt to run your code.
+
+## Grading
+See rubric on Canvas.
 
 ## Acknowledgments
 This assignment is adapted from Prof. Diane Litman and Prof. Mark Yatskar, as well from [Rudinger et al. 2017](https://aclanthology.org/W17-1609/).

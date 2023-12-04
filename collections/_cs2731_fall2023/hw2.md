@@ -6,6 +6,14 @@ title: Homework 2 (CS 2731 Fall 2023)
 # Homework 2: Text classification ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
 **Due 2023-10-05, 11:59pm**. *Instructions last updated 2023-10-03.*
 
+## Learning objectives
+After completing this assignment, students will be able to:
+* Demonstrate how weights adjust to better fit training input in stochastic gradient descent
+* Implement a text classification system using both feature-based and neural network approaches
+* Identify informative features in a feature-based text classification system
+* Analyze errors in an NLP system
+
+
 ## Part 1: Learning weights in logistic regression
 You are training a classifier for reviews of a new product recently released by a company. You design a couple of features, $$x_1$$ and $$x_2$$. You will be using logistic regression.
 With an initialization of the weights $$w_1$$, $$w_2$$ and $$b$$ (the bias) all set = 0 and a learning rate $$\eta=0.2$$, calculate the weights after processing each of the following 3 inputs:
