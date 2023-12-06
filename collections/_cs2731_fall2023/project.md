@@ -43,7 +43,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 <!--<div align="center">-->
 
 |Rubric category | Points|
-|---|---|
+|---|---:|
 |Clear motivation for the work is provided | 5|
 |Research questions and/or task definition is clear | 10|
 |Sufficient grounding in relevant related literature |  15 |
