@@ -52,14 +52,14 @@ Results are provided.<br/>For new approach contributions, results from multiple 
 Discussion is provided of the results and/or the potential uses or contributions of any new datasets contributed | 10
 Limitations of your approach or dataset are sufficiently discussed | 5
 Ethical issues that may be raised by your system or dataset are sufficiently discussed | 5
-***Project content total*** | 90
+***Project content total*** | ***90***
 Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown | 15
 Writing is clear | 15
-***Writing total*** | 30
+***Writing total*** | ***30***
 Group member had a sufficient amount of workload in the project | 15
 Task and roles assigned to this group member were completed sufficiently | 15
-***Individual contribution total*** | 30
-***Grand total*** | 120
+***Individual contribution total*** | ***30***
+***Grand total*** | ***150***
 </div>
 
 
