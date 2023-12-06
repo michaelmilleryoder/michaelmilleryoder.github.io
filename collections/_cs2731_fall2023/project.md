@@ -40,6 +40,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	<br/><br/>Please add your slides to a Google Slide presentation which you can find in a Canvas announcement. These presentations are not graded.
 7. **Final report and code**. *Due 12-14*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/read/crtcwgxzjskr)). Include a section detailing the high-level tasks that each group member did. The report should be a maximum of 8 pages, not including references or the group member task breakdown.  Additional figures or explanation in an appendix is allowed, but they will not necessarily be considered in grading. Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference, but other types of projects can also achieve an A. Here is the rubric that will be used in grading:
 
+<div align="center">
 Rubric category | Points
 ---|---
 Clear motivation for the work is provided | 5
@@ -58,21 +59,8 @@ Writing is clear | 15
 Group member had a sufficient amount of workload in the project | 15
 Task and roles assigned to this group member were completed sufficiently | 15
 ***Individual contribution total*** | 30
-
-<!--	* Project (120 points)
-		* 10 points: Clear motivation for the work is provided.
-		* 15 points: Clear research questions or task definition is provided.
-		* 20 points: Sufficient grounding in relevant related literature.
-		* 10 points: Applicable dataset/s are chosen.
-		* 20 points: Methods are relevant. For new approach contributions, multiple methods are compared. For dataset contributions, annotation methodology is explained.
-		* 20 points: Results are provided. For new approach contributions, results from multiple methods (at least one baseline) are presented. For dataset contributions, this may be a single set of results from a simple classifier, or other results if discussed with the instructor.
-		* 15 points: Discussion is provided of the results and/or the potential uses or contributions of any new datasets contributed.
-		* 5 points: Limitations of your approach or dataset are sufficiently discussed.
-		* 5 points: Ethical issues that may be raised by your system or dataset are sufficiently discussed.
-	* Writing (30 points)
-		* 15 points: Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown.
-		* 15 points: Clarity.
--->
+***Grand total*** | 120
+</div>
 
 
 ## Types of contributions
