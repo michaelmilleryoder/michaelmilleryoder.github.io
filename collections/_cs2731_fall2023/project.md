@@ -40,7 +40,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	<br/><br/>Please add your slides to a Google Slide presentation which you can find in a Canvas announcement. These presentations are not graded.
 7. **Final report and code**. *Due 12-14*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/read/crtcwgxzjskr)). Include a section detailing the high-level tasks that each group member did. The report should be a maximum of 8 pages, not including references or the group member task breakdown.  Additional figures or explanation in an appendix is allowed, but they will not necessarily be considered in grading. Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference, but other types of projects can also achieve an A. Here is the rubric that will be used in grading:
 
-<div align="center">
+<!--<div align="center">-->
 
 |Rubric category | Points|
 |---|---|
@@ -62,7 +62,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 |***Individual contribution total*** | ***30***|
 |***Grand total*** | ***150***|
 
-</div>
+<!--</div>-->
 
 
 ## Types of contributions
