@@ -46,7 +46,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 |---|---|
 |Clear motivation for the work is provided | 5|
 |Research questions and/or task definition is clear | 10|
-|Sufficient grounding in relevant related literature |  15 		|
+|Sufficient grounding in relevant related literature |  15 |
 |Applicable dataset/s are chosen | 5|
 |Methods are relevant.<br/>For new approach contributions, multiple methods are compared.<br/>For dataset contributions, annotation methodology is explained | 15|
 |Results are provided.<br/>For new approach contributions, results from multiple methods (at least one baseline) are presented.<br/>For dataset contributions, this may be a single set of results from a simple classifier, or other results if discussed with the instructor | 20|
