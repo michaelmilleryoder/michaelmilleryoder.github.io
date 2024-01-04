@@ -275,6 +275,9 @@ collections:
   cs2731_fall2023:
     output: true
     permalink: /:collection/:path
+  cs2731_spring2024:
+    output: true
+    permalink: /:collection/:path
 
 collections_dir: collections
 
