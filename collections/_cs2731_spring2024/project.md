@@ -2,16 +2,16 @@
 layout: class
 title: Final Project (CS 2731 Fall 2023)
 ---
-*Last revised 2023-12-05.*
+*Last revised 2024-01-07.*
 
-# Final Project ([CS 2731 Fall 2023](https://michaelmilleryoder.github.io/cs2731_fall2023/))
+# Final Project ([CS 2731 / ISSP 2230 Spring 2024](https://michaelmilleryoder.github.io/cs2731_spring2024/))
 A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize current approaches and challenges in a subfield of NLP and implement some sort of contribution (however small) to this NLP area of research or practice.
 
 ## Groups
-Projects will be done in groups of 2-4 students. Groups will be assigned by the instructor and TA based on interests and skills, and group preferences from students, in a survey.
+Projects will be done in groups of 2-4 students. Groups will be assigned by the instructor and TA based on interests, skills, and group preferences from students, in a survey.
 
 ## Deliverables
-1. **[Project survey](https://forms.gle/VNLS8NaKPU762VSh8)**. *Due 08-31*. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
+1. **[Project survey](https://forms.gle/dtRnWmCpe9C8TXSm9)**. *Due 08-31*. This survey asks about NLP research areas of interest, skills, project ideas, and any group preferences. The survey will be available as a Google Form. It will be used by the instructor and TA to match groups with similar project interests and complimentary abilities.
 2. **[Project area and type of contribution](https://forms.gle/uxwAmLCL55SjLby5A)**. *Due 09-21*. You will provide the type of contribution you are interested in pursuing within a specific research area, as well as any inkling of idea you have, in a form. The instructor and TA will provide some feedback and guidance on this direction in meetings (see Canvas for available time slots).
 3. **Project proposal and literature review**. *Due 10-12*. Please submit one per group on Canvas. This proposal will be a report with answers to the following questions:
 	1. What type of contribution are you making?
