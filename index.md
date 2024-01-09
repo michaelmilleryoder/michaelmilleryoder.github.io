@@ -13,7 +13,7 @@ I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' ta
 {: .bio}
 My research uses methods from natural language processing and computational social science to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
 
-I'm also adjunct faculty in the <a href="https://www.cs.pitt.edu/">Department of Computer Science</a> at the University of Pittsburgh, where I teach <a href="https://michaelmilleryoder.github.io/cs2731_fall2023/">Introduction to Natural Language Processing</a>.
+I'm also adjunct faculty in the <a href="https://www.cs.pitt.edu/">Department of Computer Science</a> at the University of Pittsburgh, where I teach <a href="https://michaelmilleryoder.github.io/cs2731_spring2024/">Introduction to Natural Language Processing</a>.
 
 ## Press and writing
 * [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
