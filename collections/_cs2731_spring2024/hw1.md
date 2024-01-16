@@ -99,11 +99,11 @@ One example won't be enough so pick out at least 4 more words from the vocab as 
 #### Tasks for section 1.3
 * Implement `rank_words`
 
-*For the report:*
-1.3.1. In our term-document matrix, the rows are word vectors of $$D$$ dimensions. Do you think that’s enough to represent the meaning of words? 
-1.3.2. Provide the top 10 associated words (the output from `rank_words`) with `juliet` and at least 2 other target words of your choice for both term-document and term-context vector spaces.
-1.3.3. Which vector space (term-document or term-context) produce similar words that make more sense than others and why do you think that is the case? Back up your conclusions by referring to the top associated term lists you provided.
-1.3.4. Consider any decisions you made in the prior sections when implementing your functions, such as whether you allowed a target word to co-occur with itself as a context word, and which window size you chose for the term-context matrix. How might any decisions you make impact our results now?
+*For the report:*<br/>
+**1.3.1.** In our term-document matrix, the rows are word vectors of $$D$$ dimensions. Do you think that’s enough to represent the meaning of words?<br/>
+**1.3.2.** Provide the top 10 associated words (the output from `rank_words`) with `juliet` and at least 2 other target words of your choice for both term-document and term-context vector spaces.<br/>
+**1.3.3.** Which vector space (term-document or term-context) produce similar words that make more sense than others and why do you think that is the case? Back up your conclusions by referring to the top associated term lists you provided.<br/>
+**1.3.4.** Consider any decisions you made in the prior sections when implementing your functions, such as whether you allowed a target word to co-occur with itself as a context word, and which window size you chose for the term-context matrix. How might any decisions you make impact our results now?<br/>
 
 ### 1.4 Weighting terms with tf-idf and PPMI
 Your term-context matrix contains the raw frequency of the co-occurrence of two words in each cell and your term-document matrix contains the raw frequency of words in each of the documents. Raw frequency turns out not to be the best way of measuring the association between words. There are several methods for weighting words so that we get better results. 
@@ -113,12 +113,12 @@ Your term-context matrix contains the raw frequency of the co-occurrence of two 
 * Take your term-document matrix and implement the weighting schemes <em>Term frequency inverse document frequency (tf-idf)</em> and <em>Positive pointwise mutual information</em> which are defined in Sections 6.5-6.6 of the textbook. These are the function stubs `create_tf_idf_matrix` and `create_ppmi_matrix`.
 Write this code from scratch, i.e. do not use additional packages that directly compute these matrices.
 
-*For the report:*
-1.4.1. Provide the top 10 associated words (the output from `rank_words`) with `juliet` and at least 2 other target words of your choice for tf-idf-weighted term-document matrices and PPMI-weighted term-context matrices.
-1.4.2. How does weighting with tf-idf compare to using the unweighted term-document matrix? 
-1.4.3. How does weighting with PPMI compare with using the unweighted term-context matrix? 
-1.4.4. How does term-context/PPMI compare to term-document/TF-IDF? 
-1.4.5. Overall, do some approaches appear to work better than others, i.e produce better synonyms? Do any interesting patterns emerge? Discuss and point to specific examples.
+*For the report:*<br/>
+**1.4.1.** Provide the top 10 associated words (the output from `rank_words`) with `juliet` and at least 2 other target words of your choice for tf-idf-weighted term-document matrices and PPMI-weighted term-context matrices. <br/>
+**1.4.2.** How does weighting with tf-idf compare to using the unweighted term-document matrix? <br/>
+**1.4.3.** How does weighting with PPMI compare with using the unweighted term-context matrix?  <br/>
+**1.4.4.** How does term-context/PPMI compare to term-document/TF-IDF?  <br/>
+**1.4.5.** Overall, do some approaches appear to work better than others, i.e produce better synonyms? Do any interesting patterns emerge? Discuss and point to specific examples. <br/>
 
 
 ## Part 2
@@ -142,16 +142,17 @@ Types of representational harms from [Blodgett et al. 2020](https://aclanthology
 * Build a term-context matrix in a similar fashion as with the Shakespeare corpus and apply PPMI weighting. You can choose the size of the context window. You can also use the whole sentence as the context. If this matrix is too big or taking too long to calculate, filter to just words that occur over some frequency threshold in the entire corpus.
 * With your PPMI-weighted term-context matrix of SNLI, find the target word vectors corresponding to identity labels in the provided list. 
 
-*For the report:*
-2.1.1. Provide the top 10 associated context words (by PPMI) for at least 4 identity labels of your choice. 
-2.1.2. Do you see any associations that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Discuss and provide selected results. If you don't find any social stereotypes (that's okay), provide examples of what you examined and how you interpreted those associations.
-2.1.3. Do you see any associations that could be defined as representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.
+*For the report:*<br/>
+**2.1.1.** Provide the top 10 associated context words (by PPMI) for at least 4 identity labels of your choice.<br/>
+**2.1.2.** Do you see any associations that may reflect social stereotypes? It is helpful to compare the top PMI words for certain identity terms with other related ones (such as men compared with women). Discuss and provide selected results. If you don't find any social stereotypes (that's okay), provide examples of what you examined and how you interpreted those associations.<br/>
+**2.1.3.** Do you see any associations that could be defined as representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.<br/>
 
 ### 2.2 Qualitative analysis
 In this section, you will explore the contexts in the dataset that lead to high PMI association with context words, especially for any words that show social bias (if you found any). *1st-order similarity* is when a target word (in this, case, an identity label) occurs in the same document with a top-associated term. This might not be very informative to see how these words are related in the dataset. If not, look at *2nd-order similarity*, in which the two words occur with similar context words. This can also be examined by looking at the vectors for the identity term and the highly associated other term in the term-context matrix. These vectors may share high values in certain dimensions that correspond to certain context words.
 
 #### Tasks for section 2.2
-2.2.1. For at least 4 pairs of identity terms and highly associated words, provide the document contexts in the SNLI dataset in which they occur together (1st-order similarity) or occur separately with similar context words (2nd-order similarity). Provide selected results and discuss findings.
+*For the report:*<br/>
+**2.2.1.** For at least 4 pairs of identity terms and highly associated words, provide the document contexts in the SNLI dataset in which they occur together (1st-order similarity) or occur separately with similar context words (2nd-order similarity). Provide selected results and discuss findings.
 
 
 ## Deliverables
