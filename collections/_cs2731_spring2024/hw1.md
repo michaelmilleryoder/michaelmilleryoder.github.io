@@ -169,10 +169,9 @@ In this section, you will explore the contexts in the dataset that lead to high 
 
 Please submit all of this material on Canvas. We will grade your report and look over your code.
 
-<!--
+
 ## Grading
-See rubric on Canvas.
--->
+See rubric on Canvas. This assignment is worth 56 points.
 
 ## Acknowledgments
 This assignment is adapted from Prof. Diane Litman and Prof. Mark Yatskar, as well from [Rudinger et al. 2017](https://aclanthology.org/W17-1609/).
