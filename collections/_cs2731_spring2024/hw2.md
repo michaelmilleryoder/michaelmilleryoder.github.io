@@ -38,6 +38,9 @@ Here is the dataset that you should download for this assignment:
 	* `conversation_id`: a unique identifier for the conversation the post came from
 	* `text`: the text of the comment
 	* `polite`: a binary class label of whether or not the comment was annotated to be polite (1) or not (0)
+* \[If participating in the optional challenge\] [`politeness_test.csv`](hw2/politeness_test.csv). This data has the same fields as the training data. You will use this in the optional challenge competition hosted on Kaggle.
+
+
 This dataset consists of requests among Wikipedia editors posted on user talk pages, as well as posts on the coding help forum Stack Exchange (see the Stanford Politeness Corpus, [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025)). 
 
 ## 2.1 Feature-based logistic regression models
