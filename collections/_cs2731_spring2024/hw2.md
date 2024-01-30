@@ -38,7 +38,7 @@ Here is the dataset that you should download for this assignment:
 	* `conversation_id`: a unique identifier for the conversation the post came from
 	* `text`: the text of the comment
 	* `polite`: a binary class label of whether or not the comment was annotated to be polite (1) or not (0)
-* \[If participating in the optional challenge\] [`politeness_test.csv`](hw2/politeness_test.csv). This data has the same fields as the training data. You will use this in the optional challenge competition hosted on Kaggle.
+* [`politeness_test.csv`](hw2/politeness_test.csv) (only necessary if participating in the optional challenge). This data has the same fields as the training data. You will use this in the optional challenge competition hosted on Kaggle.
 
 
 This dataset consists of requests among Wikipedia editors posted on user talk pages, as well as posts on the coding help forum Stack Exchange (see the Stanford Politeness Corpus, [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025)). 
@@ -69,7 +69,7 @@ In the report, please provide:
 	1. Do an error analysis. Provide a confusion matrix and sample multiple examples from both false negatives and false positives. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)
 
 ## 2.2 Neural network-based approaches
-In this section, you will build and evaluate neural network-based classifier on politeness classification. For example, you could implement a feedforward neural network that uses pre-trained static word embeddings (word2vec, GloVe, FastText, etc) as input. To represent the document, you could take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You are also welcome to try other methods we haven't yet covered in class, such as LSTMs, CNNs, BERT, or other LLMs. As long as the technique uses neural networks at some point in its architecture and involves some sort of training or fine-tuning of a model, it will be accepted. Simply prompting a pre-trained LLM to classify the instances (``zero-shot'' learning) will not be sufficient. If you have questions about what is acceptable, ask the instructor or TA.
+In this section, you will build and evaluate neural network-based classifier on politeness classification. For example, you could implement a feedforward neural network that uses pre-trained static word embeddings (word2vec, GloVe, FastText, etc) as input. To represent the document, you could take the average word embeddings of the input sentence or choose another function. You can choose which activation function to use and other hyperparameters. You are also welcome to try other methods we haven't yet covered in class, such as LSTMs, convolutional neural networks, BERT, or other LLMs. As long as the technique uses neural networks at some point in its architecture and involves some sort of training or fine-tuning of a model, it will be accepted. Simply prompting a pre-trained LLM to classify the instances ("zero-shot" or "in-context" learning) will not be sufficient. If you have questions about what is acceptable, ask the instructor or TA.
 
 You will again use 5-fold cross validation on the dataset. There is no need for this model to outperform the logistic regression model you made.
 
@@ -91,7 +91,7 @@ Optionally, you can submit your classifier to run on a hidden held-out test set 
 * 1 bonus point for scoring in the top 50% of models
 
 ### How to submit your classifier
-Please see the (Kaggle competition page)[https://www.kaggle.com/t/2ee28c56ec2d43beb8f75f54a277f2c4] for instructions on how to submit for the challenge competition.
+Please see the [Kaggle competition page](https://www.kaggle.com/t/2ee28c56ec2d43beb8f75f54a277f2c4) for instructions on how to submit for the challenge competition.
 
 You will need to create a Kaggle account to submit. Please provide your Kaggle username used in the competition in your report so we can assign any bonus points. Note that this username will be visible in a leaderboard to other challenge competition participants.
 
