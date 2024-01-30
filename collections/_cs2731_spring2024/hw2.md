@@ -33,7 +33,7 @@ In this portion, you will design and implement a program to classify if an onlin
 ## Dataset
 Here is the dataset that you should download for this assignment:
 
-* [`politeness_data.csv`](hw2/politeness_data.csv). This dataset has 3 fields:
+* [`politeness_train.csv`](hw2/politeness_train.csv). This dataset has 3 fields:
 	* `utterance_id`: a unique identifier for the post
 	* `conversation_id`: a unique identifier for the conversation the post came from
 	* `text`: the text of the comment
@@ -62,7 +62,7 @@ In the report, please provide:
 	1. Describe your motivation for including the feature
 	1. Discussion of results: Did it improve performance or not? (Either result is fine. It is not necessary to beat logistic regression with unigram features.)
 1. For a feature-based model of your choice:
-	1. List the top 2 most informative features that are mostly strongly positively and negatively associated with politeness. Discuss if you find these surprising and any other comments you might have. You may adapt code provided by the instructor in the Naive Bayes example (notebook [here](https://colab.research.google.com/drive/1QFYJjqkdKDh-OFr3aqdD4OkddYtq3QLB?usp=sharing)), use another source online, or write your own.
+	1. List the top 2 most informative features that are mostly strongly positively and negatively associated with politeness. Discuss if you find these surprising and any other comments you might have. You may adapt code provided by the instructor in the Naive Bayes example (notebook [here](https://colab.research.google.com/drive/1QFYJjqkdKDh-OFr3aqdD4OkddYtq3QLB?usp=sharing)), use another source online, or write your own. Give specific informative features, such as particular words (e.g. "actually") for bag-of-words features, instead of sets of features like "tf-idf unigram features".
 	1. Do an error analysis. Provide a confusion matrix and sample multiple examples from both false negatives and false positives. Do you see any patterns in these errors? How might these errors be addressed with different features or if the system could understand something else? (You don’t have to implement these, just speculate.)
 
 ## 2.2 Neural network-based approaches
@@ -78,7 +78,7 @@ In the report, please provide:
 * Discuss the motivation for any choices you made as far as neural classifier, word embedding types, pretraining dataset, and/or how you represented the document, or if you experimented with multiple of these options.
 * Discuss the motivation for any choices you made as far as network architecture (number and dimensions of hidden layers) or hyperparameters (learning rate, number of epochs, etc). Note if you experimented with any of these options.
 
-## 2.3 (*optional*) Submit your classifier in the class competition
+## 2.3 (*optional*) Submit your classifier in the class challenge
 Optionally, you can submit your classifier to run on a hidden held-out test set as part of a class competition. Bonus points will be awarded in the competition as follows, as measured by accuracy on our held-out test set.
 * 5 bonus points for the best-performing logistic regression classifier
 * 5 bonus points for the best neural network classifier
@@ -88,7 +88,9 @@ Optionally, you can submit your classifier to run on a hidden held-out test set 
 * 1 bonus point for scoring in the top 50% of models
 
 ### How to submit your classifier
-Only one classifier may be submitted.
+Please see the (Kaggle competition page)[https://www.kaggle.com/t/2ee28c56ec2d43beb8f75f54a277f2c4] for instructions on how to submit for the challenge competition.
+
+You will need to create a Kaggle account to submit. Please provide your Kaggle username used in the competition in your report so we can assign any bonus points. Note that this username will be visible in a leaderboard to other challenge competition participants.
 
 ## Notes
 * Don't feel like you need to write things from scratch; use as many packages as you want. Google and Stack Overflow and NLP/ML software documentation are your friend! Adapting and consulting other approaches is fine and should be noted in comments in the code and/or in the `README.txt`. Just don't use complete, fully-formed implementations for this (including from generative AI tools). Use resources as an aid, not as a final product.
@@ -105,8 +107,9 @@ Only one classifier may be submitted.
 	* any generative AI tool used, and how it was used
 	* any unresolved issues or problems
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}.pdf`. No need to include @pitt.edu, just use the email ID before that part. For example: `report_mmy29_hw2.pdf`.
+	* If participating in the challenge, the Kaggle username you used to submit your predictions
+	* If participating in the challenge, your code used for that in a file named `hw2_{your pitt email id}_test.py`. 
 * Your code used to train models and estimate performance with cross-validation in a file named `hw2_{your pitt email id}_train.py`.
-* If participating in the competition, your code used for that in a file named `hw2_{your pitt email id}_test.py`. 
 * Any additional files needed to run the code. If you draw your pretrained static embeddings from a file that you downloaded, upload it to Canvas if it's <400MB. Otherwise provide a direct URL link to the embeddings and the name and version. If the embeddings are part of a package, let us know what package to install in the README.txt file (as you should for any packages in the environment).
 
 Please submit all of this material on Canvas. We will grade your report and look over your code.
