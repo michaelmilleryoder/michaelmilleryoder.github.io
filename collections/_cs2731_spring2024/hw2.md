@@ -86,9 +86,9 @@ Optionally, you can submit your classifier to run on a hidden held-out test set 
 * 5 bonus points for the best-performing logistic regression classifier
 * 5 bonus points for the best neural network classifier
 * 3 bonus points for the 2nd best-performing logistic regression classifier
-* 3 bonus points for the best neural network classifier
-* 1 bonus point for scoring in the top 50% of models
-* 1 bonus point for scoring in the top 50% of models
+* 3 bonus points for the 2nd best-performing neural network classifier
+* 1 bonus point for scoring in the top 50% of logistic regression classifiers
+* 1 bonus point for scoring in the top 50% of neural network classifiers
 
 ### How to submit your classifier
 Please see the [Kaggle competition page](https://www.kaggle.com/t/2ee28c56ec2d43beb8f75f54a277f2c4) for instructions on how to submit for the challenge competition.
