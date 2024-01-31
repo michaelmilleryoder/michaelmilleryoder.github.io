@@ -88,7 +88,7 @@ Write this code from scratch. You can use packages like NumPy as helper packages
 Instead of using a term-document matrix, a more common way of computing word similarity is by constructing a term-context matrix (also called a term-term or word-word matrix), where columns are labeled by words rather than documents. The dimensionality of this kind of a matrix is $$\vert V \vert$$ by $$\vert V \vert$$. Each cell represents how often the word in the row (the target word) co-occurs with the word in the column (the context) in a training corpus. You can decide when it makes sense for a word to co-occur with itself in the term-context matrix. That is, will the cell for when the same word is target and context always stay 0? Note that there may be vectors where all elements are 0 if a word only appears in documents where it is the only word in the document.
 
 #### Tasks for section 1.2
-* Implement the `create_term_context_matrix` function. This function specifies the size word window around the target word that you will use to gather its contexts. For instance, if you set that variable to be 4, then you will use 4 words to the left of the target word, and 4 words to its right for the context. In this case, the cell represents the number of times in Shakespeare’s plays the column word occurs in +/-4 word window around the row word.
+* Implement the `create_term_context_matrix` function. This function specifies the size of the word window around the target word that you will use to gather its contexts. For instance, if you set that variable to be 4, then you will use 4 words to the left of the target word, and 4 words to its right for the context. In this case, the cell represents the number of times in Shakespeare’s plays the column word occurs in +/-4 word window around the row word.
 Write this code from scratch, i.e. do not use additional packages that directly compute these matrices.
 
 ### 1.3 Evaluating vector spaces
@@ -148,7 +148,7 @@ Types of representational harms from [Blodgett et al. 2020](https://aclanthology
 **2.1.3.** Do you see any associations that could be defined as representational harms (see below) learned by a bag-of-words model of this SNLI corpus? If so, which type do you see? Provide examples that support your conclusions. If you don't find any potential harms, provide examples of what you examined and how you interpreted those associations.<br/>
 
 ### 2.2 Qualitative analysis
-In this section, you will explore the contexts in the dataset that lead to high PMI association with context words, especially for any words that show social bias (if you found any). *1st-order similarity* is when a target word (in this, case, an identity label) occurs in the same document with a top-associated term. This might not be very informative to see how these words are related in the dataset. If not, look at *2nd-order similarity*, in which the two words occur with similar context words. This can also be examined by looking at the vectors for the identity term and the highly associated other term in the term-context matrix. These vectors may share high values in certain dimensions that correspond to certain context words.
+In this section, you will explore the contexts in the dataset that lead to high PMI association with context words, especially for any words that show social bias (if you found any). *1st-order similarity* is when a target word (in this, case, an identity label) occurs in the same document with a top-associated term. This might not be very informative to see how these words are related in the dataset. If not, look at *2nd-order similarity*, in which the two words occur with similar context words. This can also be examined by looking at the vectors for the identity term and the highly associated other term in the term-context matrix. These vectors may share high values in dimensions that correspond to certain context words.
 
 #### Tasks for section 2.2
 *For the report:*<br/>
@@ -156,9 +156,9 @@ In this section, you will explore the contexts in the dataset that lead to high 
 
 
 ## Deliverables
-* Your implementations for the functions in the skeleton code `hw1_skeleton_{your pitt id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please where it is in the README.txt.
-	* You are welcome to import any packages you need but please don't modify the function that has already been implemented. 
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}_hw1.pdf`. No need to include @pitt.edu, just use the email ID before that part. For example: `report_mmy29_hw1.pdf`.
+* Your implementations for the functions in the skeleton code `hw1_skeleton_{your pitt email id}.py`. You are welcome to put code for Part 2 in the same or a different file. If it's different, please where it is in the README.txt.
+	* You are welcome to import any packages you need but please don't modify the function that has already been implemented. 
 * A README.txt file explaining
 	* how to run your code
 	* the computing environment you used; what programming language you used and the major and minor version of that language; what packages did you use in case we replicate your experiments (a `requirements.txt` file for setting up the environment may be useful if there are many packages).
