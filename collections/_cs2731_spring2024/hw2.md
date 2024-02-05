@@ -102,25 +102,23 @@ You will need to create a Kaggle account to submit. Please provide your Kaggle u
 
 
 ## Deliverables
-* A `README.txt` file explaining
-	* how to run the code you used to train your models and estimate cross-validation performance
-	* the computing environment you used, including the names and versions of programming languages and packages used, in case we replicate your experiments. A `requirements.txt` file for setting up the environment is useful if there are many packages.
-	* any additional resources, references, or web pages you've consulted
-	* any person with whom you've discussed the assignment and describe the nature of your discussions
-	* any generative AI tool used, and how it was used
-	* any unresolved issues or problems
 * Your report with results and answers to questions in Part 1 and Part 2, named `report_{your pitt email id}.pdf`. No need to include @pitt.edu, just use the email ID before that part. For example: `report_mmy29_hw2.pdf`.
 	* If participating in the challenge, the Kaggle username you used to submit your predictions
 	* If participating in the challenge, your code used for that in a file named `hw2_{your pitt email id}_test.py`. 
 * Your code used to train models and estimate performance with cross-validation in a file named `hw2_{your pitt email id}_train.py`.
-* Any additional files needed to run the code. If you draw your pretrained static embeddings from a file that you downloaded, upload it to Canvas if it's <400MB. Otherwise provide a direct URL link to the embeddings and the name and version. If the embeddings are part of a package, let us know what package to install in the README.txt file (as you should for any packages in the environment).
+* A `README.txt` file explaining
+	* how to run the code you used to train your models and estimate cross-validation performance
+	* the computing environment you used, including the names and versions of programming languages and packages used, in case we replicate your experiments. A `requirements.txt` file for setting up the environment is useful if there are many packages.
+	* any additional files needed to run the code, such as the names and versions of pretrained embeddings
+	* any additional resources, references, or web pages you've consulted
+	* any person with whom you've discussed the assignment and describe the nature of your discussions
+	* any generative AI tool used, and how it was used
+	* any unresolved issues or problems
 
 Please submit all of this material on Canvas. We will grade your report and look over your code.
 
-<!-- 
 ## Grading
 See rubric on Canvas.
--->
 
 ## Acknowledgments
 This assignment is inspired from a homework assignment by Prof. Diane Litman. Data is from [Danescu-Niculescu-Mizil et al. 2013](https://aclanthology.org/P13-1025).
