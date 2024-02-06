@@ -1,6 +1,6 @@
 ---
 layout: class
-title: Final Project (CS 2731 Fall 2023)
+title: Final Project (CS 2731 Spring 2024)
 ---
 *Last revised 2024-01-07.*
 
