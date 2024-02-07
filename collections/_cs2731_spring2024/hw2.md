@@ -59,6 +59,8 @@ Implement and try the following feature and model combinations:
 	* Static word embeddings of your choice (do not use any contextualized word embeddings, such as BERT, for this part)
 	* Any other custom-designed feature (such as length of input, number of capitalized words, etc)
 
+You will thus have 3 total logistic regression models: one using bag-of-word features and 2 with your own selected features or preprocessing changes.
+
 In the report, please provide:
 1. A table of 5-fold cross-validation performance scores for models trained on each set of features. Include accuracy as well as precision, recall, and f1-score for the positive (polite) class.
 1. For each feature or change in input text processing:
