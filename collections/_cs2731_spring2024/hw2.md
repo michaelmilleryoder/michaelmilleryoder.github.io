@@ -24,8 +24,10 @@ With an initialization of the weights $$w_1$$, $$w_2$$ and $$b$$ (the bias) all 
 During calculations, keep at least 3 significant digits for values. Points will not be taken off for slight differences due to rounding.
 
 ### Deliverables for Part 1
-* In the report, show your work in calculating the values of the weights after training on each data point. 
-Briefly comment on any shift in weights from positive to negative or negative to positive and why this was the case.
+In the report:
+* Give weights after training on each data point (3 total weight changes, one after each timestep/data point).
+* Show your work in calculating the values of the weights after training on each data point.
+* Briefly comment on any shift in weights from positive to negative or negative to positive and why this was the case.
 
 ## Part 2: Implement a politeness classifier
 In this portion, you will design and implement a program to classify if an online comment is polite or not. You can use any packages you want for this (scikit-learn, spaCy, NLTK, Gensim, code from Homework 1, etc). Any packages used should be specified in the `README.txt` file, along with version numbers for Python and all packages. If you will be using a language other than Python, please let us know before submitting. Your script should be able to take the name of a dataset as a single keyword argument.
