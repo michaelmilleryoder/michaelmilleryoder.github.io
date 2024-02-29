@@ -4,7 +4,7 @@ title: Homework 3 (CS 2731 Spring 2024)
 ---
 
 # Homework 3: Character-based language modeling ([CS 2731 Spring 2024](https://michaelmilleryoder.github.io/cs2731_spring2024/))
-**Due 2024-03-07, 11:59pm**. *Instructions last updated 2024-02-21.*
+**Due 2024-03-07, 11:59pm**. *Instructions last updated 2024-02-29.*
 
 In this assignment, you will build unigram, bigram, and trigram character language models (both unsmoothed and smoothed versions) for three languages, score a test document with each, and determine the language it is written in based on perplexity. You will also use your English language models to generate texts. You will critically examine all results. The learning goals of this assignment are to:
 
@@ -34,7 +34,7 @@ You may write your program in any TA-approved programming language (Python, Java
 
 You are allowed to use any resources or packages to extract the character ngrams from text, such as scikit-learn or NLTK. You may not use any package to directly train/compute language model probabilities; that portion of the program should be from scratch.
 
-You will be training a total of 12 character ngram models: 
+You will be training a total of 15 character ngram models: 
 * unsmoothed unigram, bigram and trigram models for English, Spanish, and German (9 models)
 * interpolated bigram and trigram models for English, Spanish, and German (6 models)
 
