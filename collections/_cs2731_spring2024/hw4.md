@@ -4,7 +4,7 @@ title: Homework 4 (CS 2731 Spring 2024)
 ---
 
 # Homework 4: Sequence labeling ([CS 2731 Spring 2024](https://michaelmilleryoder.github.io/cs2731_spring2024/))
-**Due 2024-03-21, 11:59pm**. *Instructions last updated 2024-03-05.*
+**Due 2024-03-25, 11:59pm**. *Instructions last updated 2024-03-05.*
 
 In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune BERT-based models for part-of-speech (POS) tagging for English and Norwegian.
 
@@ -42,6 +42,7 @@ NOUN|0.3|0.2|0.1|0.1|0.1|0.2
 AUX|0|0|0.4|0.6|0|0
 VERB|0|0|0.1|0.2|0.5|0.2
 
+See chapter 8 in the Jurafsky & Martin textbook for details on the Viterbi algorithm.
 Using the Viterbi algorithm and the given HMM, find the most likely tag sequence for the following 2 sentences.
 1. “Patrick can see Cherry”
 1. “will Cherry spot Patrick”
