@@ -21,8 +21,8 @@ Initial probabilities:
 
 &nbsp; | $$\pi$$
 --|--------
-NOUN|0.7
-AUX|0.1
+NOUN|0.6
+AUX|0.2
 VERB|0.2
 
 Transition probabilities: 
@@ -46,13 +46,13 @@ Using the Viterbi algorithm and the given HMM, find the most likely tag sequence
 1. “Patrick can see Cherry”
 1. “will Cherry spot Patrick”
 
-To get you started on the Viterbi tables, here are the first 2 columns for the first sentence. You'll also want to include the backtraces.
+To get you started on the Viterbi tables, here are the first 2 columns for the first sentence. You'll also need to include the backtraces.
 
 POS state | Patrick | can | see| Cherry
 ----|---|----|---|---
-NOUN|0.21|0.0042| |
-AUX|0|0.0252| |
-VERB|0|0.0105| |
+NOUN|0.18|0.0036<br>backtrace:NOUN| |
+AUX|0|0.0216<br>backtrace:NOUN| |
+VERB|0|0.0105<br>backtrace:NOUN| |
 
 
 ## Deliverables for part 1
@@ -63,7 +63,7 @@ Report the most likely tag sequences for these 2 sentences.
 # 2. Fine-tune BERT-based models for POS tagging
 In this section, you will fine-tune pretrained BERT-based models for part-of-speech tagging in English and Norwegian.
 
-Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1rCwqpIMOjqiLPGoS5U0kHmSXfi0d3Xmb?usp=sharing), run the cells, and fill in the places that are specified.
+Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1X0wmJbH-ySZg5DASEDGTV_SrkdzMXq89?usp=sharing), run the cells, and fill in the places that are specified.
 
 ## Deliverables for part 2
 In your report, include:
@@ -73,6 +73,7 @@ In your report, include:
 1. A brief discussion of any choices you made about hyperparameters in training
 1. *(Optionally, for extra credit)* A description of changes you made or different pretrained models you tried and what accuracy you obtained on the dev set. 1 point of extra credit will be given if any changes result in an improved accuracy on the dev set.
 1. Accuracy of the fine-tuned models on the test set for both English and Norwegian
+1. POS tags predicted for the words of a sentence of your choice in both English and Norwegian
 4. A link to your copied and filled out Colab notebook
 
 ## Submission
