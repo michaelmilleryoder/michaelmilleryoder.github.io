@@ -46,7 +46,7 @@ Using the Viterbi algorithm and the given HMM, find the most likely tag sequence
 1. “Patrick can see Cherry”
 1. “will Cherry spot Patrick”
 
-To get you started on the Viterbi tables, here are the first 2 columns for the first sentence. You'll also need to include the backtraces.
+To get you started on the Viterbi tables, here are the first 2 columns for the first sentence with backtraces.
 
 POS state | Patrick | can | see| Cherry
 ----|---|----|---|---
@@ -56,7 +56,7 @@ VERB|0|0.0105<br>backtrace:NOUN| |
 
 
 ## Deliverables for part 1
-In your report, show your work for calculating the Viterbi tables or lattices for both example sentences.
+In your report, show your work for calculating the Viterbi tables or lattices for both example sentences. This should include probabilities and backtraces.
 Report the most likely tag sequences for these 2 sentences.
 
 
@@ -68,7 +68,7 @@ Copy this [skeleton Colab notebook](https://colab.research.google.com/drive/1X0w
 ## Deliverables for part 2
 In your report, include:
 1. The 5 most frequent POS tags for English and Norwegian datasets (specified in the notebook) and how many tokens are tagged with each
-1. For each of the 5 most frequent POS tags for English and Norwegian datasets, provide the 5 most frequent tokens annotated with that tag in the training data
+1. For each of the 5 most frequent POS tags for English and Norwegian datasets, provide the 5 most frequent word types annotated with that tag in the training data
 1. The names of the pretrained BERT-based models you chose for both English and Norwegian
 1. A brief discussion of any choices you made about hyperparameters in training
 1. *(Optionally, for extra credit)* A description of changes you made or different pretrained models you tried and what accuracy you obtained on the dev set. 1 point of extra credit will be given if any changes result in an improved accuracy on the dev set.
@@ -88,7 +88,7 @@ Please submit the following items on Canvas:
 
 ## Grading
 This homework assignment is worth 56 points.
-See rubric on Canvas.
+<!--See rubric on Canvas.-->
 
 
 ## Acknowledgments
