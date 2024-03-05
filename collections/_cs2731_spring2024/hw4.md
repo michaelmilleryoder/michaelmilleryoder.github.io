@@ -57,7 +57,7 @@ VERB|0|0.0105<br>backtrace:NOUN| |
 
 
 ## Deliverables for part 1
-In your report, show your work for calculating the Viterbi tables or lattices for both example sentences. This should include probabilities and backtraces.
+In your report, show your work for calculating the Viterbi tables or lattices for both example sentences. This should include backtraces and calculations for probabilities.
 Report the most likely tag sequences for these 2 sentences.
 
 
