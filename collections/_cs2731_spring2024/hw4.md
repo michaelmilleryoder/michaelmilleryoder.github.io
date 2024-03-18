@@ -4,7 +4,7 @@ title: Homework 4 (CS 2731 Spring 2024)
 ---
 
 # Homework 4: Sequence labeling ([CS 2731 Spring 2024](https://michaelmilleryoder.github.io/cs2731_spring2024/))
-**Due 2024-03-25, 11:59pm**. *Instructions last updated 2024-03-05.*
+**Due 2024-03-25, 11:59pm**. *Instructions last updated 2024-03-18.*
 
 In this assignment, you will manually decode the highest-probability sequence of part-of-speech tags from a trained HMM using the Viterbi algorithm. You will also fine-tune BERT-based models for part-of-speech (POS) tagging for English and Norwegian.
 
@@ -53,7 +53,7 @@ POS state | Patrick | can | see| Cherry
 ----|---|----|---|---
 NOUN|0.18|0.0036<br>backtrace:NOUN| |
 AUX|0|0.0216<br>backtrace:NOUN| |
-VERB|0|0.0105<br>backtrace:NOUN| |
+VERB|0|0.009<br>backtrace:NOUN| |
 
 
 ## Deliverables for part 1
