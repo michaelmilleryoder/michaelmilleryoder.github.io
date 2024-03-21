@@ -41,13 +41,13 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	<br/><br/>Please add your slides to a Google Slide presentation which you can find in a Canvas announcement. These presentations are not graded.
 7. **Final report**. *Due 04-25*. At the end of the course, groups will provide a written report of their project. This report will be in the ACL format found [here](https://github.com/acl-org/acl-style-files) (Overleaf template [here](https://www.overleaf.com/read/crtcwgxzjskr)). Include a section detailing the high-level tasks that each group member did. The report should be a maximum of 8 pages, not including references or the group member task breakdown.  Additional figures or explanation in an appendix is allowed, but they will not necessarily be considered in grading. Outstanding reports would be of a quality and structure that could be submitted to an NLP workshop or conference, but other types of projects can also achieve an A. 
 
-<!--Here is the rubric that will be used in grading:
+Here is the rubric that will be used in grading:
 
 |Rubric category | Points|
 |---|---:|
 |Clear motivation for the work is provided | 5|
 |Research questions and/or task definition is clear | 10|
-|Sufficient grounding in relevant related literature |  15 |
+|Sufficient grounding in relevant related literature |  10 |
 |Applicable dataset/s are chosen | 5|
 |Methods are relevant.<br/>For new approach contributions, multiple methods are compared.<br/>For dataset contributions, annotation methodology is explained | 15|
 |Results are provided.<br/>For new approach contributions, results from multiple methods (at least one baseline) are presented.<br/>For dataset contributions, this may be a single set of results from a simple classifier, or other results if discussed with the instructor | 20|
@@ -55,14 +55,13 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 |Limitations of your approach or dataset are sufficiently discussed | 5|
 |Ethical issues that may be raised by your system or dataset are sufficiently discussed | 5|
 |***Project content total*** | ***90***|
-|Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown | 15|
+|Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown | 10|
 |Writing is clear | 15|
 |***Writing total*** | ***30***|
 |Group member had a sufficient amount of workload in the project | 15|
 |Task and roles assigned to this group member were completed sufficiently | 15|
 |***Individual contribution total*** | ***30***|
-|***Grand total*** | ***150***|
--->
+|***Grand total*** | ***140***|
 
 
 ## Types of contributions
