@@ -2,7 +2,7 @@
 layout: class
 title: Final Project (CS 2731 Spring 2024)
 ---
-*Last revised 2024-01-07.*
+*Last revised 2024-04-15.*
 
 # Final Project ([CS 2731 / ISSP 2230 Spring 2024](https://michaelmilleryoder.github.io/cs2731_spring2024/))
 A major component of this course is a hands-on final project guided by students' own interests. In this project, students will demonstrate an ability to summarize current approaches and challenges in a subfield of NLP and implement some sort of contribution (however small) to this NLP area of research or practice.
@@ -33,7 +33,7 @@ Projects will be done in groups of 2-4 students. Groups will be assigned by the 
 	<br/><br/>Please add your slides to a Google Slide presentation which will be posted in a Canvas announcement. Presentations are not graded.
 3. **[Project peer review](https://forms.gle/F8fhBkUpgCSJDTNA9)**. *Due 03-27*. In a Google Form, you will rate your own performance and the performance of other group members. This feedback will not be used for grading, but to identify any workload distribution issues early on and assign roles accordingly.
 5. **Basic working system report**. *Due 04-04*. A brief (1-2 page) progress report of a basic working system. Not everything needs to be done or fully functional, but there needs to be some sort of basic functionality. Also list any questions you have or resources you will need to successfully complete the project by the final deadline. This report should be in the ACL format that the final report will be in.
-6. **Final presentation**. *In class on 04-24*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation in which you can divide up speaking responsibilities however you see fit (not all members need to speak, and it is okay for one group member to present the whole presentation). Cover at least these key points:
+6. **Final presentation**. *In class on 04-24*. Groups will present their finished work to the group, with Q&A and feedback opportunities from students. Please prepare a maximum 5-minute presentation in which you can divide up speaking responsibilities however you see fit, though having more than one group member is encouraged. Cover at least these key points:
 	1. Project motivation (briefly)
 	2. Data
 	3. Methods, or annotation/collection approach for dataset projects
@@ -54,10 +54,10 @@ Here is the rubric that will be used in grading:
 |Discussion is provided of the results and/or the potential uses or contributions of any new datasets contributed | 10|
 |Limitations of your approach or dataset are sufficiently discussed | 5|
 |Ethical issues that may be raised by your system or dataset are sufficiently discussed | 5|
-|***Project content total*** | ***90***|
+|***Project content total*** | ***85***|
 |Meets all formatting requirements. Is maximum 8 pages, not including references or group member task breakdown | 10|
 |Writing is clear | 15|
-|***Writing total*** | ***30***|
+|***Writing total*** | ***25***|
 |Group member had a sufficient amount of workload in the project | 15|
 |Task and roles assigned to this group member were completed sufficiently | 15|
 |***Individual contribution total*** | ***30***|
