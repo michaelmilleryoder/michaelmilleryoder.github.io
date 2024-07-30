@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Michael Miller Yoder"
   avatar           : "/images/DSC03968_4x5_vertical.jpg"
-  bio              : "Postdoctoral Researcher<br><a href='http://collabagainsthate.org' target='_blank' style='color:#4e91a5'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank' style='color:#4e91a5'>IDeaS Center</a><br>Carnegie Mellon University<br>he/him or they/them"
+  bio              : "Teaching Assistant Professor<br/><a href='http://sci.pitt.edu' target='_blank' style='color:#4e91a5'>School of Computing and Information</a><br/>University of Pittsburgh<br>he/him"
   location         : "Pittsburgh, PA, USA"
   email            :
   links:
-    - label: "yoder@cs.cmu.edu"
+    - label: "mmy29@pitt.edu"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:yoder@cs.cmu.edu"
+      url: "mailto:mmy29@pitt.edu"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=3XxF8EoAAAAJ&hl=en"

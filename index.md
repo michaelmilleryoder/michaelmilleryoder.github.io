@@ -8,18 +8,11 @@ title:
 ---
 {::options parse_block_html="true" /}
 {: .bio}
-I’m a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, where I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
+I'm a Teaching Assistant Professor in the <a href='http://sci.pitt.edu' target='_blank'>School of Computing and Information</a> at the University of Pittsburgh.
 
-{: .bio}
-My research uses methods from natural language processing and computational social science to study how identities and ideologies are expressed, generally in online communities. I currently focus on computational approaches to countering hate speech and online extremism.
+My teaching and research focus on data science, natural language processing, and computational social science. My work generally uses data science techniques to study social constructs such as identities and ideologies. I’m also interested in the social and ethical implications of data science and computational technologies.
 
-I'm also adjunct faculty in the <a href="https://www.cs.pitt.edu/">Department of Computer Science</a> at the University of Pittsburgh, where I teach <a href="https://michaelmilleryoder.github.io/cs2731_spring2024/">Introduction to Natural Language Processing</a>.
-
-## Press and writing
-* [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
-Atiya Irvin-Mitchell, Technical.ly, 2023.  
-* [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech)  
- Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
+Before joining Pitt, I was a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, where I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
 ## Publications
 {: #publications}
@@ -38,7 +31,7 @@ Michael Miller Yoder, Ahmad Diab, David West Brown, Kathleen M. Carley
 <hr>
 
 **Identity Construction in a Misogynist Incels Forum**  
-Michael Miller Yoder, Chloe Perry, David West Brown, Kathleen M. Carley, Meredith Pruden  
+Michael Miller Yoder, Chloe Perry, David West Brown, Kathleen M. Carley, Meredith L. Pruden  
 *Proceedings of the Workshop on Online Abuse and Harms (WOAH)*. 2023.  
 <span class="badge workshop-paper">workshop paper</span> [pdf](https://aclanthology.org/2023.woah-1.1.pdf)  
 <hr>
@@ -161,3 +154,10 @@ Hyeju Jang, Yohan Jo, Qinlan Shen, Michael Miller, Shane Moon, Carolyn P. Rosé
 *Proceedings of the Association for Computational Linguistics (ACL)*. 2016.  
 <span class="badge conference">conference paper</span> [pdf](http://www.aclweb.org/anthology/P16-1021)
 </div>
+
+## Press and writing
+* [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
+Atiya Irvin-Mitchell, Technical.ly, 2023.  
+* [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech)  
+ Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
+
