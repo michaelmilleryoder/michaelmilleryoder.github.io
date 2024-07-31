@@ -99,9 +99,9 @@ author:
   location         : 
   email            :
   links:
-    - label: "mmy29@pitt.edu"
+    - label: "mmyoder@pitt.edu"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mmy29@pitt.edu"
+      url: "mailto:mmyoder@pitt.edu"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=3XxF8EoAAAAJ&hl=en"
