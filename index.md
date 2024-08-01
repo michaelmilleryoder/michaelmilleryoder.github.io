@@ -10,7 +10,9 @@ title:
 {: .bio}
 I'm a Teaching Assistant Professor in the <a href='http://sci.pitt.edu' target='_blank'>School of Computing and Information</a> at the University of Pittsburgh.
 
-My teaching and research focus on data science, natural language processing, and computational social science. My work generally uses data science techniques to study social constructs such as identities and ideologies. I’m also interested in the social and ethical implications of data science and computational technologies.
+My teaching and research focus on data science, natural language processing, and computational social science. 
+My work generally applies computational text analysis and other quantitative approaches to study social interaction and the expression of identities and ideologies. 
+I’m also interested in the social and ethical implications of data science and computational technologies.
 
 Before joining Pitt, I was a postdoctoral researcher at the <a href='http://collabagainsthate.org' target='_blank'>Collaboratory Against Hate</a> and <a href='https://www.cmu.edu/ideas-social-cybersecurity/' target='_blank'>IDeaS Center</a> at Carnegie Mellon University, advised by <a href='http://www.casos.cs.cmu.edu/bios/carley/carley.html' target='_blank'>Kathleen M. Carley</a> and <a href='https://www.cmu.edu/dietrich/english/about-us/faculty/bios/david-brown.html' target='_blank'>David West Brown</a>. I completed a PhD at the <a href="https://lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> at Carnegie Mellon University, where I was advised by <a href="http://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Penstein Rosé</a>. 
 
