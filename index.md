@@ -20,6 +20,25 @@ Before joining Pitt, I was a postdoctoral researcher at the <a href='http://coll
 {: #publications}
 
 <div class="publications">
+
+**The "chanification" of white supremacist extremism**  
+Michael Miller Yoder, David West Brown, Kathleen M. Carley  
+*Computational and Mathematical Organization Theory.* 2024.  
+<span class="badge journal">journal article</span> [article page](https://link.springer.com/article/10.1007/s10588-024-09390-1) &middot; [pdf](https://link.springer.com/content/pdf/10.1007/s10588-024-09390-1.pdf)  
+<hr>
+
+**Misogyny Surfaces as Top Issue in Survey of In-game Experiences**  
+Michael Miller Yoder, Eleanor Young, Jasmin Narisetty, Sam Kulikowski, Will Flanagan, Claire Schuler, Caroline Guo, Zachary Yang  
+Collaboratory Against Hate. 2024.   
+<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/cah-survey-of-online-gaming-finds-frequent-misogyny-anti-lgbtq-hate-and-racial-harassment) &middot; [pdf](https://cdn.prod.website-files.com/605b6d7396f31a85a2a3654b/66e0af8d60f6a90158793872_Tekko_white_paper%20(1).pdf)
+<hr>
+
+**A Fairness Analysis of Human and AI-Generated Student Reflection Summaries**  
+Bhiman Kumar Baghel, Arun Balajiee Lekshmi Narayanan, Michael Miller Yoder    
+*Proceedings of the Workshop on Gender Bias in Natural Language Processing (GeBNLP)*. 2024.  
+<span class="badge workshop-paper">workshop paper</span> [pdf](https://aclanthology.org/2024.gebnlp-1.5.pdf)  
+<hr>
+
 **Pandemic Personas: Analyzing Identity Signals in COVID-19 Discourse on Twitter**  
 Scott Leo Renshaw, Samantha C. Phillips, Michael Miller Yoder, Kathleen M. Carley  
 *Proceedings of the International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS)*. 2023.  
