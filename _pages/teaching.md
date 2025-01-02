@@ -4,8 +4,10 @@ title: Teaching
 permalink: /teaching/
 ---
 
-# [CS 2731 / ISSP 2230 Introduction to Natural Language Processing Spring 2024](/cs2731_spring2024)
-Graduate-level intro NLP course taught at the University of Pittsburgh.
+# [CS 1671/2071 Human Language Technologies](/cs1671)
+\[[Spring 2025](/cs1671_spring2025)\]
+Undergraduate-level intro NLP course taught at the University of Pittsburgh.
 
-# [CS 2731 Introduction to Natural Language Processing Fall 2023](/cs2731_fall2023)
+# [CS 2731 / ISSP 2230 Introduction to Natural Language Processing](/cs2731)
+\[[Spring 2024](/cs2731_spring2024)\] | \[[Fall 2023](/cs2731_spring2024)\]
 Graduate-level intro NLP course taught at the University of Pittsburgh.
