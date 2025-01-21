@@ -30,7 +30,7 @@ Michael Miller Yoder, David West Brown, Kathleen M. Carley
 **Misogyny Surfaces as Top Issue in Survey of In-game Experiences**  
 Michael Miller Yoder, Eleanor Young, Jasmin Narisetty, Sam Kulikowski, Will Flanagan, Claire Schuler, Caroline Guo, Zachary Yang  
 Collaboratory Against Hate. 2024.   
-<span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/cah-survey-of-online-gaming-finds-frequent-misogyny-anti-lgbtq-hate-and-racial-harassment) &middot; [pdf](https://cdn.prod.website-files.com/605b6d7396f31a85a2a3654b/66e0af8d60f6a90158793872_Tekko_white_paper%20(1).pdf)
+<span class="badge whitepaper">whitepaper</span> [webpage](https://www.carvt.org/white-paper/cah-survey-of-online-gaming-finds-frequent-misogyny-anti-lgbtq-hate-and-racial-harassment/) &middot; [pdf](https://cdn.prod.website-files.com/605b6d7396f31a85a2a3654b/66e0af8d60f6a90158793872_Tekko_white_paper%20(1).pdf)
 <hr>
 
 **A Fairness Analysis of Human and AI-Generated Student Reflection Summaries**  
