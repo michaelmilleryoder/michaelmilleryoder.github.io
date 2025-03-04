@@ -29,7 +29,7 @@ Michael Miller Yoder, David West Brown, Kathleen M. Carley
 
 **Misogyny Surfaces as Top Issue in Survey of In-game Experiences**  
 Michael Miller Yoder, Eleanor Young, Jasmin Narisetty, Sam Kulikowski, Will Flanagan, Claire Schuler, Caroline Guo, Zachary Yang  
-Collaboratory Against Hate. 2024.   
+Center for Applied Research on Targeted Violence (Collaboratory Against Hate). 2024.   
 <span class="badge whitepaper">whitepaper</span> [webpage](https://www.carvt.org/white-paper/cah-survey-of-online-gaming-finds-frequent-misogyny-anti-lgbtq-hate-and-racial-harassment/) &middot; [pdf](https://cdn.prod.website-files.com/605b6d7396f31a85a2a3654b/66e0af8d60f6a90158793872_Tekko_white_paper%20(1).pdf)
 <hr>
 
@@ -84,7 +84,7 @@ Shiyan Jiang, Amato Nocera, Cansu Tatar, Michael Miller Yoder, Jie Chao, Kenia W
 
 **Research Needs for Countering Extremist Hate**  
 Michael Miller Yoder, Hana Habib  
-Collaboratory Against Hate. 2022.   
+Center for Applied Research on Targeted Violence (Collaboratory Against Hate). 2022.   
 <span class="badge whitepaper">whitepaper</span> [webpage](https://www.collabagainsthate.org/papers-presentations/research-needs) &middot; [pdf](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63247ec32084819a7f657240_CAH_research_needs_white_paper.pdf)
 <hr>
 
@@ -180,5 +180,5 @@ Hyeju Jang, Yohan Jo, Qinlan Shen, Michael Miller, Shane Moon, Carolyn P. Rosé
 * [Addressing the spread of online hate speech will require more than just tech](https://technical.ly/civic-news/how-to-fight-online-hate-speech/)  
 Atiya Irvin-Mitchell, Technical.ly, 2023.  
 * [From computer science to social science: new approaches to track and mitigate online hate speech](https://www.collabagainsthate.org/news/from-computer-science-to-social-science-new-approaches-to-track-and-mitigate-online-hate-speech)  
- Michael Miller Yoder, Collaboratory Against Hate blog post, 2023.
+ Michael Miller Yoder, Center for Applied Research on Targeted Violence (Collaboratory Against Hate) blog post, 2023.
 
