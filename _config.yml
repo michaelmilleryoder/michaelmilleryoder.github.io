@@ -96,8 +96,8 @@ author:
   name             : "Michael Miller Yoder"
   avatar           : "/images/DSC03968_4x5_vertical.jpg"
   bio              : "Teaching Assistant Professor<br/><a href='http://sci.pitt.edu' target='_blank' style='color:#4e91a5'>School of Computing and Information</a><br/>University of Pittsburgh<br>he/him"
-    #location         : "Sennott Square, Room 6309<br/>University of Pittsburgh<br/>Pittsburgh, PA, USA"
-  location         : "Information Sciences Bldg,<br/>&emsp;&ensp;Room 604B<br/>&emsp;&ensp;University of Pittsburgh<br/>&emsp;&ensp;Pittsburgh, PA, USA"
+  location         : "Sennott Square, Office 6309<br/>University of Pittsburgh<br/>Pittsburgh, PA, USA"
+    #location         : "Information Sciences Bldg,<br/>&emsp;&ensp;Room 604B<br/>&emsp;&ensp;University of Pittsburgh<br/>&emsp;&ensp;Pittsburgh, PA, USA"
   email            :
   links:
     - label: "mmyoder@pitt.edu"
