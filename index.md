@@ -23,7 +23,7 @@ Before joining Pitt, I was a postdoctoral researcher at the <a href='http://carv
 
 **Measuring Dimensions of Self-Presentation in Twitter Bios and their Links to Misinformation Sharing**  
 Navid Madani, Rabiraj Bandyopadhyay, Michael Miller Yoder, Stephan D. McCabe, Briony Swire-Thompson, Kenneth Joseph  
-*Proceedings of the International AAAI Conference on Web and Social Media.* 2025.  
+*Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).* 2025.  
 <span class="badge conference">conference paper</span> [article page](https://ojs.aaai.org/index.php/ICWSM/article/view/35866) &middot; [pdf](https://ojs.aaai.org/index.php/ICWSM/article/download/35866/38020/39934)  
 <hr>
 
@@ -81,12 +81,14 @@ Ahmad Diab, Bolor-Erdene Jagdagdorj, Lynnette Hui Xian Ng, Yu-Ru Lin, Michael Mi
 <span class="badge workshop-paper">workshop paper</span> [article page](https://dl.acm.org/doi/10.1145/3543873.3587569) &middot; [preprint](https://arxiv.org/pdf/2303.07838.pdf)  
 <hr>
 
+<!--
 **The Relationship Between Antisemitism and COVID-19 Conspiracy on Twitter**  
 Grace Garner, Madeleine McGrann, Daniel Klug, Rachel Kranson, Michael Miller Yoder  
 International Communication Association Conference (ICA), Toronto, Canada, 2023.   
 <span class="badge conference-presentation">conference presentation</span> [preprint](https://mediarxiv.org/syrac/) &middot; [whitepaper](https://www.collabagainsthate.org/papers-presentations/antisemitism-and-covid-19-conspiracy-on-twitter)   
-<!--&middot; [whitepaper](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)-->
+&middot; [whitepaper](https://assets.website-files.com/605b6d7396f31a85a2a3654b/63769c09ea27c47a0bff0c0d_CAH_qualitative_internship_white_paper.pdf)
 <hr>
+-->
 
 **How Hate Speech Varies by Target Identity: A Computational Analysis**  
 Michael Miller Yoder, Lynnette Hui Xian Ng, David West Brown, Kathleen M. Carley  
