@@ -21,6 +21,18 @@ Before joining Pitt, I was a postdoctoral researcher at the <a href='http://carv
 
 <div class="publications">
 
+**Measuring Dimensions of Self-Presentation in Twitter Bios and their Links to Misinformation Sharing**  
+Navid Madani, Rabiraj Bandyopadhyay, Michael Miller Yoder, Stephan D. McCabe, Briony Swire-Thompson, Kenneth Joseph  
+*Proceedings of the International AAAI Conference on Web and Social Media.* 2025.  
+<span class="badge conference">conference paper</span> [article page](https://ojs.aaai.org/index.php/ICWSM/article/view/35866) &middot; [pdf](https://ojs.aaai.org/index.php/ICWSM/article/download/35866/38020/39934)  
+<hr>
+
+**Modes of toxic behavior and game design considerations in online multiplayer games**  
+Lynnette Hui Xian Ng, Adrian Xuan Wei Lim, Michael Miller Yoder  
+*First Monday.* 2025.  
+<span class="badge journal">journal article</span> [article page](https://firstmonday.org/ojs/index.php/fm/article/view/13851) &middot; [pdf](https://firstmonday.org/ojs/index.php/fm/article/download/13851/12035/91074)  
+<hr>
+
 **The "chanification" of white supremacist extremism**  
 Michael Miller Yoder, David West Brown, Kathleen M. Carley  
 *Computational and Mathematical Organization Theory.* 2024.  
@@ -38,6 +50,12 @@ Bhiman Kumar Baghel, Arun Balajiee Lekshmi Narayanan, Michael Miller Yoder
 *Proceedings of the Workshop on Gender Bias in Natural Language Processing (GeBNLP)*. 2024.  
 <span class="badge workshop-paper">workshop paper</span> [pdf](https://aclanthology.org/2024.gebnlp-1.5.pdf)  
 <hr>
+
+**Implicit Antisemitism and COVID-19 Conspiracy Theory on Twitter: Linking Narratives in a Mixed-Methods Study**  
+Grace Garner, Madeleine McGrann, Maja Lynn, Daniel Klug, Rachel Kranson, Michael Miller Yoder  
+*Jewish Film & New Media: An International Journal*. 2023.  
+<span class="badge journal">journal article</span> [article page](https://dx.doi.org/10.1353/jfn.2023.a965681)  
+<hr/>
 
 **Pandemic Personas: Analyzing Identity Signals in COVID-19 Discourse on Twitter**  
 Scott Leo Renshaw, Samantha C. Phillips, Michael Miller Yoder, Kathleen M. Carley  
