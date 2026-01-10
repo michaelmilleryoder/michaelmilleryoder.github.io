@@ -5,7 +5,7 @@ permalink: /teaching/
 ---
 
 # [CS 1671/2071 Human Language Technologies](/cs1671)
-\[[Spring 2025](/cs1671_spring2025)\]
+\[[Spring 2026](/cs1671_spring2026)\] | \[[Spring 2025](/cs1671_spring2025)\]
 Undergraduate-level intro NLP course taught at the University of Pittsburgh.
 
 # CMPINF 2120 Applied Predictive Modeling
