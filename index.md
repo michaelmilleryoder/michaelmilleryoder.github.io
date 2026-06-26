@@ -21,6 +21,12 @@ Before joining Pitt, I was a postdoctoral researcher at the <a href='http://carv
 
 <div class="publications">
 
+**FATe of Bots: Ethical Considerations of Social Bot Detection**  
+Lynnette Hui Xian Ng, Ethan Pan, Michael Miller Yoder, Kathleen Carley  
+*ACM Journal on Responsible Computing.* 2026.  
+<span class="badge journal">journal article</span> [article page](https://dl.acm.org/doi/10.1145/3799706) &middot; [pdf](https://dl.acm.org/doi/pdf/10.1145/3799706)  
+<hr>
+
 **Measuring Dimensions of Self-Presentation in Twitter Bios and their Links to Misinformation Sharing**  
 Navid Madani, Rabiraj Bandyopadhyay, Michael Miller Yoder, Stephan D. McCabe, Briony Swire-Thompson, Kenneth Joseph  
 *Proceedings of the International AAAI Conference on Web and Social Media (ICWSM).* 2025.  
